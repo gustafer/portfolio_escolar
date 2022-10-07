@@ -51,7 +51,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-gitlab"></i>
+          <i className="fa-solid fa-car"></i>
           <span></span>
         </a>
       ) : null}
