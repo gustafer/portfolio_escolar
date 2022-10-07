@@ -3,13 +3,13 @@
   font-style: normal;
   font-weight: normal;
   src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+    url("/assets/fonts/Agustina.woff") format("woff");
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
   src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+    url("/assets/fonts/Montserrat-Regular.ttf") format("woff");
   font-display: swap;
 }
 code {
