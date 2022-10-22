@@ -99,7 +99,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-medium"></i>
+          <i className="fab fa-youtube"></i>
           <span></span>
         </a>
       ) : null}

@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/gustafer/portfolio_escolar",
   discord: "https://discord.gg/68RfW5JeNN",
   gmail: "gustavobreasy@gmail.com",
-  medium: "https://medium.com/@saadpasta",
+  medium: "https://music.youtube.com/channel/UCazPZA5I0goXo85P_LAJAkA",
    // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -283,7 +283,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displaymediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
