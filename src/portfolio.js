@@ -100,23 +100,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "sua mae na minha cama",
-      logo: "./assets/images/harvardLogo.png",
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "CNA Grajáu, Online",
+      logo: "./assets/images/cnalogo.png",
+      subHeader: "Avançado, penúltimo módulo",
+      duration: "Fevereiro 2016 - Novembro 2022...",
+      desc: "Participou da prova de st.Patrick",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Aprender uma outra lingua é libertar-se de padrões."
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Escola E.M.E.F. Padre José Pegoraro",
       logo: "./assets/images/stanfordLogo.png",
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Ensino fundamental, 9° Ano",
+      duration: "Fevereiro 2013 - Novembro 2022...",
+      desc: "Participei de um teatro em 2016, programa de robótica em 2017",
+      descBullets: ["Melhores notas da sala."]
     }
   ]
 };
