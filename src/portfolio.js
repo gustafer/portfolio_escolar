@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "O QUE EU FAÇO?",
-  subTitle: "Um estudante de progamação qualquer, aprendento estas linguagens",
+  subTitle: "Um estudante de progamação qualquer, aprendendo estas linguagens",
   skills: [
     emoji(
       "⚡ Navego na internet buscando projetos open source e construo sites com meu irmão"
