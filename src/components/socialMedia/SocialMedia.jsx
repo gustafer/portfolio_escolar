@@ -51,7 +51,7 @@ export default function socialMedia() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fa-solid fa-car"></i>
+          <i className="fa-brands fa-instagram"></i>
           <span></span>
         </a>
       ) : null}
