@@ -33,7 +33,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/gustafer/portfolio_escolar",
+  github: "https://github.com/gustafer",
   discord: "https://discord.gg/68RfW5JeNN",
   gmail: "gustavobreasy@gmail.com",
   medium: "https://music.youtube.com/channel/UCazPZA5I0goXo85P_LAJAkA",
@@ -185,29 +185,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projetos",
+  subtitle: "Alguns projetos open-source que estou trabalhando agora",
   projects: [
     {
-      image: "./assets/images/saayaHealthLogo.webp",
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "./assets/images/esteProjeto.png",
+      projectName: "Portfolio Escolar",
+      projectDesc: "Este projeto que você está vendo agora ",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Veja o github",
+          url: "https://github.com/gustafer/portfolio_escolar"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: "./assets/images/nextuLogo.webp",
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "./assets/images/harryLogo.png",
+      projectName: "Harry App",
+      projectDesc: "Projeto baseado em typescript e HP api, em co-op com meu irmão." ,
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Veja o github",
+          url: "https://github.com/viniciuscluna/react-harry-app"
         }
       ]
     }
