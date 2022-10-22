@@ -20,14 +20,14 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.linkedin ? (
+      {socialMediaLinks.discord ? (
         <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
+          href={socialMediaLinks.discord}
+          className="icon-button discord"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-linkedin-in"></i>
+          <i className="fa-brands fa-discord"></i>
           <span></span>
         </a>
       ) : null}
