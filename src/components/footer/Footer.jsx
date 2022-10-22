@@ -8,10 +8,10 @@ export default function Footer() {
   return (
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
+          {emoji("Feito com ❤️, ustav.")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
+          Open source de{" "}
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
           </a>
