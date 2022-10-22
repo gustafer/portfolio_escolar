@@ -27,13 +27,13 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              {contactInfo.number && (
+              {contactInfo.discord && (
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.number}
+                    href={"tel:" + contactInfo.discord}
                   >
-                    {contactInfo.number}
+                    {contactInfo.discord}
                   </a>
                   <br />
                   <br />

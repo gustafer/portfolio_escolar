@@ -61,11 +61,11 @@ function Header() {
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">talks</a>
+              <a href="#talks">Talks</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contatos</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

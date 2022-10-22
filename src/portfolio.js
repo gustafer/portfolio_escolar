@@ -336,10 +336,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contatos ☎️"),
   subtitle:
-    "Quer falar comigo ou discutir alguma coisa?",
-  number: "+92-0000000000",
+    "Quer discutir alguma coisa ou falar comigo?",
+  discord:"ustav#0397",
   email_address: "gustavobreasy@gmail.com"
 };
 
