@@ -1,4 +1,4 @@
-# Portifólio escolar
+# Portfólio escolar
 Esse projeto foi usada partes antigas de [SaadPasta](https://github.com/saadpasta), foi utilizado o projeto [developerFolio](https://github.com/saadpasta/developerFolio) como base. 
 Foram atualizadas js para jsx
 

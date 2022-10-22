@@ -52,6 +52,7 @@ const Main = () => {
           <>
             <Header />
             <Greeting />
+            <Podcast />
             <StackProgress />
             <Education />
             <WorkExperience />
@@ -61,7 +62,6 @@ const Main = () => {
             <Blogs />
             <Talks />
             <Twitter />
-            <Podcast />
             <Profile />
             <Footer />
             <ScrollToTopButton />
