@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   instagram: "https://www.instagram.com/",
   github: "https://github.com/gustafer/portfolio_escolar",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  discord: "https://discord.gg/68RfW5JeNN",
   gmail: "saadpasta70@gmail.com",
   facebook: "https://www.facebook.com/saad.pasta7",
   medium: "https://medium.com/@saadpasta",
@@ -361,9 +361,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Quer falar comigo ou discutir alguma coisa?",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "gustavobreasy@gmail.com"
 };
 
 // Twitter Section
