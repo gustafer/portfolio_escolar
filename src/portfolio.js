@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Gustavo",
-  title: "Olá meu nome é ustav",
+  title: "Olá, meu nome é ustav",
   subTitle: emoji(
     "um cara aprendendo coisas sobre progamação"
   ),
@@ -47,16 +47,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "O QUE EU FAÇO?",
+  subTitle: "Um estudante de progamação qualquer, aprendento estas linguagens",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Navego na internet buscando projetos open source e constroi codigos com seu irmão"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Faço projetos open source "),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -66,10 +63,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
       skillName: "sass",
@@ -88,24 +81,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
