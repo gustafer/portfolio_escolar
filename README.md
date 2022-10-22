@@ -6,7 +6,8 @@ Foram atualizadas js para jsx
 
 Site exemplo [aqui](https://portfolioescolar.vercel.app/) veja como ele funciona na prática.
 
-## Personalize o que quiser em `/src/portfolio.js` e modifique à sua necessidade. Talvez tambem seja necessária a edição de `index.html` para mudar o título e a metadata.
+## Personalização
+Personalize o que quiser em `/src/portfolio.js` e modifique à sua necessidade. Talvez tambem seja necessária a edição de `index.html` para mudar o título e a metadata.
 
 ## Usagem
 No codigo tem varios exemplos de usagem, como
