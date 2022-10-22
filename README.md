@@ -1,6 +1,6 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
+# Portifólio escolar
+Esse projeto foi usada partes antigas de [SaadPasta](https://github.com/saadpasta), foi utilizado o projeto [developerFolio](https://github.com/saadpasta/developerFolio) como base. 
+Foram atualizadas js para jsx
 
 ## Site no ar
 
@@ -17,5 +17,4 @@ No codigo tem varios exemplos de usagem, como
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
-Use como quiser o código.
+Use como quiser o código, mais informacões da base em [developerFolio](https://github.com/saadpasta/developerFolio), license.
