@@ -33,11 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  instagram: "https://www.instagram.com/",
   github: "https://github.com/gustafer/portfolio_escolar",
   discord: "https://discord.gg/68RfW5JeNN",
-  gmail: "saadpasta70@gmail.com",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  gmail: "gustavobreasy@gmail.com",
   medium: "https://medium.com/@saadpasta",
    // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
