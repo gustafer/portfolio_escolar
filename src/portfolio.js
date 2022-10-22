@@ -49,7 +49,7 @@ const skillsSection = {
   subTitle: "Um estudante de progamação qualquer, aprendento estas linguagens",
   skills: [
     emoji(
-      "⚡ Navego na internet buscando projetos open source e constroi codigos com seu irmão"
+      "⚡ Navego na internet buscando projetos open source e construo sites com meu irmão"
     ),
     emoji("⚡ Faço projetos open source "),
   ],
