@@ -219,56 +219,69 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const gamesSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Jogos 🎮 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Eu tambem gosto de jogar, estes são alguns do que mais jogo :",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "League of Legends",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: "./assets/images/codeInLogo.webp",
+        "Venho jogando desde 2016, Hardstuck gold, main adc e Jhin",
+      image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "OP.GG",
+          url: "https://www.op.gg/summoners/br/SirGustaf"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Riot Games",
+          url: "https://www.leagueoflegends.com/pt-br/"
+        }
+      ]
+    },
+    
+    {
+      title: "Valorant",
+      subtitle:
+        "Outro da riot, sou um jogador casual, prata e main Chamber",
+      image: "./assets/images/valorant.png",
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Tracker.gg",
+          url: "https://tracker.gg/valorant/profile/riot/SirGustaf%23BR1/overview"
         },
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Riot Games",
+          url: "https://playvalorant.com/pt-br/"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Terraria",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "./assets/images/googleAssistantLogo.webp",
+        "200 Horas de gameplay, esse jogo é uma maravilha.",
+      image: "./assets/images/terraria.png",
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Steam",
+          url: "https://store.steampowered.com/app/105600/Terraria/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "./assets/images/pwaLogo.webp",
+      title: "Brawlhalla",
+      subtitle: "Jogo muito bom, basicamente um smashbros só que bom.",
+      image: "./assets/images/brawlhalla.png",
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Steam",
+          url: "https://store.steampowered.com/app/291550/Brawlhalla/"
         }
       ]
     }

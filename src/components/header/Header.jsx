@@ -50,6 +50,9 @@ function Header() {
             </li>
           )}
           <li>
+            <a href="#achievements">Jogos</a>
+          </li>
+          <li>
             <a href="#contact">Contatos</a>
           </li>
           <li>
