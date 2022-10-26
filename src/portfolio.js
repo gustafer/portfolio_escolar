@@ -23,7 +23,7 @@ const greeting = {
   username: "Gus",
   title: "Olá, eu sou Gus",
   subTitle: emoji(
-    "um cara aprendendo coisas sobre progamação"
+    "um cara aprendendo coisas sobre programação"
   ),
   resumeLink:
     "", // Set to empty to hide the button
