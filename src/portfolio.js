@@ -218,7 +218,7 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
-const achievementSection = {
+const gamesSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
@@ -273,7 +273,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -360,7 +360,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
+  gamesSection,
   blogSection,
   talkSection,
   podcastSection,

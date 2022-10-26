@@ -10,7 +10,7 @@ import {
   bigProjects,
   blogSection,
   talkSection,
-  achievementSection
+  gamesSection
 } from "../../portfolio";
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewBigProjects = bigProjects.display;
-  const viewAchievement = achievementSection.display;
+  const viewAchievement = gamesSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
 

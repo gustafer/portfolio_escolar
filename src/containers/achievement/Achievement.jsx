@@ -1,11 +1,11 @@
 import React, {useContext} from "react";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
-import {achievementSection} from "../../portfolio";
+import {gamesSection} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
-  if (!achievementSection.display) {
+  if (!gamesSection.display) {
     return null;
   }
   return (
@@ -19,7 +19,7 @@ export default function Achievement() {
                   : "heading achievement-heading"
               }
             >
-              {achievementSection.title}
+              {gamesSection.title}
             </h1>
             <p
               className={
@@ -28,11 +28,11 @@ export default function Achievement() {
                   : "subTitle achievement-subtitle"
               }
             >
-              {achievementSection.subtitle}
+              {gamesSection.subtitle}
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card, i) => {
+            {gamesSection.achievementsCards.map((card, i) => {
               return (
                 <AchievementCard
                   key={i}
