@@ -35,8 +35,9 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/gustafer",
   discord: "https://discord.gg/68RfW5JeNN",
+  steam: "https://steamcommunity.com/profiles/76561198924836134/",
   gmail: "gustavobreasy@gmail.com",
-  medium: "https://music.youtube.com/channel/UCazPZA5I0goXo85P_LAJAkA",
+  youtube: "https://music.youtube.com/channel/UCazPZA5I0goXo85P_LAJAkA",
    // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -203,7 +204,7 @@ const bigProjects = {
     {
       image: "./assets/images/harryLogo.png",
       projectName: "Harry App",
-      projectDesc: "Projeto baseado em typescript e HP api, em co-op com meu irmão." ,
+      projectDesc: "Projeto baseado em typescript e HP api, em parceria." ,
       footerLink: [
         {
           name: "Veja o github",

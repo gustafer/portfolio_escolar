@@ -27,6 +27,7 @@
   margin-bottom: 10px;
   transition: 0.2s ease-in;
 }
+
 .facebook i {
   background-color: $faceBook;
 }
@@ -63,6 +64,14 @@
   background-color: $stackoverflow;
 }
 
+.steam i {
+  background-color: $steam;
+}
+
+.youtube i {
+  background-color: $youtube;
+}
+
 .kaggle i {
   background-color: $kaggle;
 }
@@ -74,6 +83,8 @@
 .github i:hover,
 .discord i:hover,
 .facebook i:hover,
+.steam i:hover,
+.youtube i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
 .kaggle i:hover,

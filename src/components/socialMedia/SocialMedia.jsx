@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -28,18 +28,6 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fa-brands fa-discord"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -76,6 +64,42 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-instagram"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.steam ? (
+        <a
+          href={socialMediaLinks.steam}
+          className="icon-button steam"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-steam"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+{socialMediaLinks.gmail ? (
+        <a
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-envelope"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube"></i>
           <span></span>
         </a>
       ) : null}
