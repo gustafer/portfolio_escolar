@@ -189,7 +189,7 @@ const bigProjects = {
   subtitle: "Alguns projetos open-source que estou trabalhando agora",
   projects: [
     {
-      image: "./assets/images/esteProjeto.png",
+      image: "./assets/images/manOnTable.svg",
       projectName: "Portfolio Escolar",
       projectDesc: "Este projeto que você está vendo agora ",
       footerLink: [
