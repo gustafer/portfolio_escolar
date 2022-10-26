@@ -38,7 +38,7 @@ const socialMediaLinks = {
   steam: "https://steamcommunity.com/profiles/76561198924836134/",
   gmail: "gustavobreasy@gmail.com",
   youtube: "https://music.youtube.com/channel/UCazPZA5I0goXo85P_LAJAkA",
-   // Instagram, Twitter and Kaggle are also supported in the links!
+  // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -190,28 +190,32 @@ const bigProjects = {
   subtitle: "Alguns projetos open-source que estou trabalhando agora",
   projects: [
     {
+      image: "./assets/images/harryLogo.png",
+      projectName: "Harry App",
+      projectDesc: "Projeto baseado em typescript e HP api, em parceria.",
+      footerLink: [
+        {
+          name: "Veja o github",
+          url: "https://github.com/viniciuscluna/react-harry-app"
+        },
+        {
+          name: "Site",
+          url: "https://react-harry-app.vercel.app",
+        }
+      ]
+    },
+    {
       image: "./assets/images/manOnTable.svg",
       projectName: "Portfolio Escolar",
       projectDesc: "Este projeto que você está vendo agora ",
       footerLink: [
         {
           name: "Veja o github",
-          url: "https://github.com/gustafer/portfolio_escolar"
+          url: "https://github.com/gustafer/portfolio_escolar",
         }
-        //  you can add extra buttons here.
       ]
     },
-    {
-      image: "./assets/images/harryLogo.png",
-      projectName: "Harry App",
-      projectDesc: "Projeto baseado em typescript e HP api, em parceria." ,
-      footerLink: [
-        {
-          name: "Veja o github",
-          url: "https://github.com/viniciuscluna/react-harry-app"
-        }
-      ]
-    }
+    //  you can add extra buttons here.
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -242,7 +246,7 @@ const gamesSection = {
         }
       ]
     },
-    
+
     {
       title: "Valorant",
       subtitle:
@@ -350,7 +354,7 @@ const contactInfo = {
   title: emoji("Contatos ☎️"),
   subtitle:
     "Quer discutir alguma coisa ou falar comigo?",
-  discord:"ustav#0397",
+  discord: "ustav#0397",
   email_address: "gustavobreasy@gmail.com"
 };
 
