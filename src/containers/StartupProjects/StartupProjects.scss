@@ -19,7 +19,6 @@
 }
 .project-card {
   display: flex;
-  flex-direction: column;
   background-color: $lightBackground2;
   padding: 1.5rem;
   border-radius: 10px;
@@ -34,7 +33,6 @@
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
