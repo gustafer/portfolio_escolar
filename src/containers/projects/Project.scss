@@ -1,3 +1,5 @@
+@import "../../_globalColor";
+
 .project-title {
   font-size: 52px;
   font-weight: 400;
@@ -29,4 +31,7 @@
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+}
+.footer :hover {
+  background: $buttonHover;
 }

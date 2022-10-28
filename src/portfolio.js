@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 1000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -193,7 +193,7 @@ const bigProjects = {
       image: "./assets/images/harryLogo.png",
       projectName: "Harry App",
       projectDesc: "Projeto baseado em typescript e HP api, em parceria.",
-      footerLink: [
+      footerLink : [
         {
           name: "Veja o github",
           url: "https://github.com/viniciuscluna/react-harry-app"
@@ -280,7 +280,7 @@ const gamesSection = {
 
     {
       title: "Brawlhalla",
-      subtitle: "Jogo muito bom, basicamente um smashbros só que bom.",
+      subtitle: "Jogo muito bom, basicamente um smashbros só que jogável",
       image: "./assets/images/brawlhalla.png",
       imageAlt: "PWA Logo",
       footerLink: [
