@@ -1,4 +1,5 @@
 @import "./globalColor";
+@import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 .App {
   text-align: center;
@@ -28,3 +29,23 @@
 .subTitle {
   color: $subTitle;
 }
+
+
+@media (max-width: 700px) {
+  .d-sm-none {
+    display: none!important;
+  }
+
+  .d-md-none {
+    display: unset;
+  }
+}
+
+
+@media (min-width: 701px) {
+  .d-md-none {
+    display: none!important;
+  }
+}
+
+

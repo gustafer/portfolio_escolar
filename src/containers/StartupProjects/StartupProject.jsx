@@ -1,7 +1,9 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
+import "./Project.scss";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
+import { bigProjects } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { Carousel } from 'react-responsive-carousel';
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -12,25 +14,86 @@ export default function StartupProject() {
     win.focus();
   }
 
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   if (!bigProjects.display) {
     return null;
   }
   return (
-      <div className="main" id="projects">
-        <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {bigProjects.subtitle}
-          </p>
+    <div className="main bs-5" id="projects">
+      <div>
+        <h1 className="skills-heading">{bigProjects.title}</h1>
+        <p
+          className={
+            isDark
+              ? "dark-mode project-subtitle"
+              : "subTitle project-subtitle"
+          }
+        >
+          {bigProjects.subtitle}
+        </p>
 
-          <div className="projects-container">
+        <div className="projects-container d-sm-none">
+          {bigProjects.projects.map((project, i) => {
+            return (
+              <div
+                key={i}
+                className={
+                  isDark
+                    ? "dark-mode project-card project-card-dark"
+                    : "project-card project-card-light"
+                }
+              >
+                {project.image ? (
+                  <div className="project-image">
+                    <img
+                      src={project.image}
+                      alt={project.projectName}
+                      className="card-image"
+                    ></img>
+                  </div>
+                ) : null}
+                <div className="project-detail">
+                  <h5
+                    className={isDark ? "dark-mode card-title" : "card-title"}
+                  >
+                    {project.projectName}
+                  </h5>
+                  <p
+                    className={
+                      isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                    }
+                  >
+                    {project.projectDesc}
+                  </p>
+                  {project.footerLink ? (
+                    <div className="project-card-footer">
+                      {project.footerLink.map((link, i) => {
+                        return (
+                          <span
+                            key={i}
+                            className={
+                              isDark ? "dark-mode project-tag" : "project-tag"
+                            }
+                            onClick={() => openUrlInNewTab(link.url)}
+                          >
+                            {link.name}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  ) : null}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="projects-container d-md-none">
+          <Carousel
+            infiniteLoop
+            showArrows
+            showStatus={false}
+          >
             {bigProjects.projects.map((project, i) => {
               return (
                 <div
@@ -84,8 +147,11 @@ export default function StartupProject() {
                 </div>
               );
             })}
-          </div>
+          </Carousel>
+
+
         </div>
       </div>
+    </div>
   );
 }

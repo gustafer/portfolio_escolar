@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/header/Header";
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
-import StackProgress from "./skillProgress/skillProgress";
-import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
@@ -21,7 +18,6 @@ import { StyleProvider } from "../contexts/StyleContext";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 import GameExperiences from "./workExperience/WorkExperience";
-import Games from "./achievement/Achievement";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -57,7 +53,6 @@ const Main = () => {
             <Skills />
             <Education />
             <GameExperiences />
-            <Projects />
             <StartupProject />
             <Achievement />
             <Blogs />
