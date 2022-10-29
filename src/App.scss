@@ -1,5 +1,5 @@
 @import "./globalColor";
-@import "react-responsive-carousel/lib/styles/carousel.min.css";
+@import "./assets/carrousel/carousel.css";
 
 .App {
   text-align: center;
@@ -63,7 +63,7 @@ body:has(div  div .dark-mode)::-webkit-scrollbar-track {
 
 body:has(div  div .dark-mode)::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  border: 6px solid rgba(255, 255, 255, 0.1);
+  background-color:rgba(255, 255, 255, 0.1) ;
   background-clip: content-box;
 }
 /*Light*/
@@ -75,9 +75,23 @@ body:has(div  div .light-mode)::-webkit-scrollbar-track {
 body:has(div  div .light-mode)::-webkit-scrollbar-thumb {
   background-color: #d6dee1;
   border-radius: 20px;
-  border: 6px solid rgba(0, 0, 0, 0.363);
   background-clip: content-box;
 }
   
+//carousel 
 
+.light-mode {
+  .carousel .control-dots .dot{
+    background: black;
+  }
+  .carousel.carousel-slider {
+    .control-prev.control-arrow:before {
+      border-right: 8px solid black;
+    }
+
+    .control-next.control-arrow:before {
+      border-left: 8px solid black;
+    }
+  }
+}
 
