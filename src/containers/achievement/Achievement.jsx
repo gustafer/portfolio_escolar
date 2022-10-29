@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import "./Achievement.scss";
 import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { gamesSection } from "../../portfolio";
+import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import { Carousel } from 'react-responsive-carousel';
 
@@ -22,7 +23,8 @@ export default function Achievement() {
             }
           >
             {gamesSection.title}
-          </h1>
+            <span className="joystick-emoji">{emoji("🎮")}</span>
+          </h1 >
           <p
             className={
               isDark

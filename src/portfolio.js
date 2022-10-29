@@ -224,7 +224,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const gamesSection = {
-  title: emoji("Jogos 🎮 "),
+  title: emoji("Jogos"),
   subtitle:
     "Eu tambem gosto de jogar, estes são alguns do que mais jogo :",
 
@@ -253,7 +253,7 @@ const gamesSection = {
         "Outro da riot, sou um jogador casual, prata e main Chamber",
       image: "./assets/images/valorant.png",
       imageAlt: "Google Code-In Logo",
-      footerLink: [
+      footerLink : [
         {
           name: "Tracker.gg",
           url: "https://tracker.gg/valorant/profile/riot/SirGustaf%23BR1/overview"
@@ -287,6 +287,19 @@ const gamesSection = {
         {
           name: "Steam",
           url: "https://store.steampowered.com/app/291550/Brawlhalla/"
+        }
+      ]
+    },
+    
+    {
+      title: "Pokemon GO",
+      subtitle: "Jogo mobile da niantic dadhai dus hoids asdas apio",
+      image: "./assets/images/pokemon.png",
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
         }
       ]
     }

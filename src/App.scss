@@ -49,3 +49,35 @@
 }
 
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+/*Dark*/
+//scroll
+
+
+body:has(div  div .dark-mode)::-webkit-scrollbar-track {
+  background: #171c28;    /* color of the tracking area */
+}
+
+body:has(div  div .dark-mode)::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 6px solid rgba(255, 255, 255, 0.1);
+  background-clip: content-box;
+}
+/*Light*/
+
+body:has(div  div .light-mode)::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+body:has(div  div .light-mode)::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid rgba(0, 0, 0, 0.363);
+  background-clip: content-box;
+}
+  
+
+
