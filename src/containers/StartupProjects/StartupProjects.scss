@@ -83,8 +83,12 @@
   background:$buttonHover;
 }
 @media (max-width: 768px) {
+  .skills-heading {
+    margin-top: -4rem;
+  }
+
+  }
   .project-subtitle {
     font-size: 16px;
     text-align: center;
   }
-}

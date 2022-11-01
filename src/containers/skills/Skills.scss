@@ -4,6 +4,8 @@
   display: flex;
   width: 100%;
   overflow: hidden;
+  
+  margin-top: 5rem;
 }
 
 .skills-text-div {
@@ -13,6 +15,7 @@
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
+  
 }
 
 .skills-image-div > img {
@@ -35,6 +38,9 @@
   }
 }
 @media (max-width: 768px) {
+  .skills-main-div {
+    margin-bottom: -5rem;
+  }
   .skills-heading {
     font-size: 30px;
     text-align: center;
