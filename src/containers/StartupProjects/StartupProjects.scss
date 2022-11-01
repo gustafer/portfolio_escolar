@@ -61,7 +61,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
-
 .project-card-footer span.project-tag {
   background: $buttonColor;
   color: $lightBackground3;
@@ -77,6 +76,7 @@
   margin: 0 0.5rem 0.5rem 0;
   padding: 0 0.75em;
   cursor: pointer;
+  margin-top: 1rem;
   transition: 0.2s ease-in;
 }
 .project-card-footer .project-tag:hover{
@@ -89,6 +89,7 @@
 
   }
   .project-subtitle {
-    font-size: 16px;
-    text-align: center;
+    font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+    text-align: left;
   }
+
