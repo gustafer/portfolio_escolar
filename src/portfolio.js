@@ -232,7 +232,7 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        "Venho jogando desde 2016, Hardstuck gold, main adc e Jhin",
+        "Venho jogando desde 2016, Hardstuck gold, main Jhin",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -293,7 +293,7 @@ const gamesSection = {
     
     {
       title: "Pokemon GO",
-      subtitle: "Jogo mobile da niantic dadhai dus hoids asdas apio",
+      subtitle: "Jogo mobile da niantic, as atualizações estão revivendo o jogo",
       image: "./assets/images/pokemon.png",
       imageAlt: "PWA Logo",
       footerLink: [
