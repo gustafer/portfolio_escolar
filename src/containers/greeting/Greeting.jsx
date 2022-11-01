@@ -3,7 +3,7 @@ import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-
+import VanillaTilt from 'vanilla-tilt';
 import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -46,15 +46,19 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        <div className="greeting-image-div">
+        <body>
+<div class="your-element" data-tilt></div>
 
+        <div className="greeting-image-div">
           <img
             alt="man sitting on table"
             className="profile"
             src={"/assets/images/profile.png"}
           ></img>
-
         </div>
+        
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+</body>
       </div>
     </div>
   );
