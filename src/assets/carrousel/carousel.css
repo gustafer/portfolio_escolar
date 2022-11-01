@@ -53,10 +53,11 @@
 .carousel {
   cursor:default;
   position: relative;
-  right: 1rem;
-  left: 1rem;
+  width: 100%;
+  align-items: center;
  }
   .carousel * {
+    text-align: center;
     cursor: default; }
   .carousel img {
     width: 100%;
@@ -157,7 +158,7 @@
     padding: 0;
     position: relative;
     list-style: none;
-    min-width: 100%; }
+    width: 100%; }
     .carousel .slider.animated {
       -webkit-transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;

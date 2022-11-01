@@ -293,7 +293,7 @@ const gamesSection = {
     
     {
       title: "Pokemon GO",
-      subtitle: "Jogo mobile da niantic, as atualizações estão acontecendo.",
+      subtitle: "Jogo mobile da niantic, as atualizações estão boas.",
       image: "./assets/images/pokemon.png",
       imageAlt: "PWA Logo",
       footerLink: [
