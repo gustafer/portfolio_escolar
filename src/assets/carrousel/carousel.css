@@ -53,11 +53,10 @@
 .carousel {
   cursor:default;
   position: relative;
-  width: 100%; }
+  right: 1rem;
+  left: 1rem;
+ }
   .carousel * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     cursor: default; }
   .carousel img {
     width: 100%;
@@ -141,7 +140,7 @@
       display: flex; }
       .carousel .slider-wrapper.axis-horizontal .slider .slide {
         flex-direction: column;
-        flex-flow: column; }
+        flex-flow: 1rem; }
     .carousel .slider-wrapper.axis-vertical {
       -ms-box-orient: horizontal;
       display: -webkit-box;
@@ -158,7 +157,7 @@
     padding: 0;
     position: relative;
     list-style: none;
-    width: 100%; }
+    min-width: 100%; }
     .carousel .slider.animated {
       -webkit-transition: all 0.35s ease-in-out;
       -moz-transition: all 0.35s ease-in-out;
@@ -176,32 +175,9 @@
       border: 0; }
     .carousel .slide iframe {
       display: inline-block;
-      width: calc(10% - 80px);
-      margin: 0 20px 20px;
+      width: calc(1% - 8px);
+      margin: 0 2px 2px;
       border: 0; }
-    .carousel .slide .legend {
-      -webkit-transition: all 0.5s ease-in-out;
-      -moz-transition: all 0.5s ease-in-out;
-      -ms-transition: all 0.5s ease-in-out;
-      -o-transition: all 0.5s ease-in-out;
-      transition: all 0.5s ease-in-out;
-      position: absolute;
-      bottom: 40px;
-      left: 50%;
-      margin-left: -45%;
-      width: 90%;
-      border-radius: 10px;
-      background: #000;
-      color: #fff;
-      padding: 10px;
-      font-size: 12px;
-      text-align: center;
-      opacity: 0.25;
-      -webkit-transition: opacity 0.35s ease-in-out;
-      -moz-transition: opacity 0.35s ease-in-out;
-      -ms-transition: opacity 0.35s ease-in-out;
-      -o-transition: opacity 0.35s ease-in-out;
-      transition: opacity 0.35s ease-in-out; }
   .carousel .control-dots {
     position: absolute;
     bottom: 0;
@@ -209,7 +185,8 @@
     padding: 0;
     text-align: center;
     width: 100%;
-    z-index: 1; }
+    z-index: 1; 
+  }
     @media (min-width: 960px) {
       .carousel .control-dots {
         bottom: 0; } }
