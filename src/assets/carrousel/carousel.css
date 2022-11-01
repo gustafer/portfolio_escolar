@@ -65,11 +65,11 @@
     outline: 0;
     border: 0;
     background: none;
-    top: 50%;
+    top: 4%;
     margin-top: -13px;
     font-size: 18px; }
   .carousel .thumbs-wrapper {
-    margin: 20px;
+    margin: 7px;
     overflow: hidden; }
   .carousel .thumbs {
     -webkit-transition: all 0.15s ease-in;
@@ -92,7 +92,8 @@
     -o-transition: border 0.15s ease-in;
     transition: border 0.15s ease-in;
     display: inline-block;
-    margin-right: 6px;
+    margin-right: 3px;
+    margin-left: 3px;
     white-space: nowrap;
     overflow: hidden;
     border: 3px solid #fff;
@@ -171,8 +172,8 @@
       border: 0; }
     .carousel .slide iframe {
       display: inline-block;
-      width: calc(100% - 80px);
-      margin: 0 40px 40px;
+      width: calc(10% - 80px);
+      margin: 0 20px 20px;
       border: 0; }
     .carousel .slide .legend {
       -webkit-transition: all 0.5s ease-in-out;
