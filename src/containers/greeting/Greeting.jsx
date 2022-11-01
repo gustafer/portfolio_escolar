@@ -53,7 +53,7 @@ export default function Greeting() {
           <img
             alt="man sitting on table"
             className="profile"
-            src={"/assets/images/ricardo.png"}
+            src={"/assets/images/profile.png"}
           ></img>
         </div>
         
