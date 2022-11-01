@@ -57,6 +57,8 @@ export default function Achievement() {
             infiniteLoop
             showArrows
             showStatus={false}
+            preventMovementUntilSwipeScrollTolerance={true}
+            swipeScrollTolerance={50}
           >
             {gamesSection.achievementsCards.map((card, i) => {
               return (

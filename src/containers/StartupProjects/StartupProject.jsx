@@ -93,6 +93,8 @@ export default function StartupProject() {
             infiniteLoop
             showArrows
             showStatus={false}
+            preventMovementUntilSwipeScrollTolerance={true}
+            swipeScrollTolerance={50}
           >
             {bigProjects.projects.map((project, i) => {
               return (
