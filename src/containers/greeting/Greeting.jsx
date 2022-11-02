@@ -49,11 +49,9 @@ export default function Greeting() {
           </div>
         </div>
           <div className="greeting-image-div">
-            <Tilt className="Tilt" tiltMaxAngleX={45}
-    tiltMaxAngleY={45}
-    transitionSpeed={1000}
+            <Tilt className="Tilt" 
+    transitionSpeed={10}
     gyroscope={true}
-    trackOnWindow={false}
   >
               <img
                 alt="man sitting on table"
