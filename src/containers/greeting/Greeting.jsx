@@ -51,6 +51,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <Tilt className="Tilt" 
     transitionSpeed={10}
+    tiltReverse={true}
     gyroscope={true}
   >
               <img
