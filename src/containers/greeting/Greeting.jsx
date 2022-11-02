@@ -49,7 +49,7 @@ export default function Greeting() {
           </div>
         </div>
           <div className="greeting-image-div">
-            <Tilt className="Tilt" options={{ max: 25 }}  >
+            <Tilt className="Tilt" options={{ max: 25 }} gyroscope={true} >
               <img
                 alt="man sitting on table"
                 className="profile"
