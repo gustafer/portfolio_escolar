@@ -49,8 +49,8 @@ export default function Greeting() {
           </div>
         </div>
           <div className="greeting-image-div">
-            <Tilt className="Tilt" otiltMaxAngleX={35}
-    tiltMaxAngleY={35}
+            <Tilt className="Tilt" tiltMaxAngleX={45}
+    tiltMaxAngleY={45}
     transitionSpeed={1000}
     gyroscope={true}
     trackOnWindow={true}
