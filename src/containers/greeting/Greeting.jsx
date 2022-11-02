@@ -53,7 +53,7 @@ export default function Greeting() {
     tiltMaxAngleY={45}
     transitionSpeed={1000}
     gyroscope={true}
-    trackOnWindow={true}
+    trackOnWindow={false}
   >
               <img
                 alt="man sitting on table"
