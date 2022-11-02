@@ -768,6 +768,11 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-parallax-tilt@^1.7.68:
+  version "1.7.68"
+  resolved "https://registry.yarnpkg.com/react-parallax-tilt/-/react-parallax-tilt-1.7.68.tgz#0aeb733343d942706380c425c30b6f94579896b4"
+  integrity sha512-HDYxYrV8s/mu6Tm1uR+8qGGEvrblCmBEOJGxlUr6O1y0oDjhZ7d6oWr9SsqCvBU6iC/xz5b57kQy2zPeglkQ5Q==
+
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
@@ -879,11 +884,6 @@ update-browserslist-db@^1.0.9:
   dependencies:
     escalade "^3.1.1"
     picocolors "^1.0.0"
-
-vanilla-tilt@^1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/vanilla-tilt/-/vanilla-tilt-1.7.3.tgz#1c6a15c1c627e949571167e5421ee82cf465026a"
-  integrity sha512-tdNVZ1JyDNsByplVCS1H3/i/zcGOIrFW5BQp7u9SyXKjNypZw7s89x+GA8kOhUxWOggF4A1E9N55jEF0ttpLjw==
 
 vite@^3.1.0:
   version "3.2.1"

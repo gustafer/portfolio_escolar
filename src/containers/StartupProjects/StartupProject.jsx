@@ -93,6 +93,7 @@ export default function StartupProject() {
             infiniteLoop
             showArrows
             showStatus={false}
+            showThumbs={false}
             preventMovementUntilSwipeScrollTolerance={true}
             swipeScrollTolerance={50}
           >

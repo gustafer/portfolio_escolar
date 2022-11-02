@@ -59,6 +59,7 @@ export default function Achievement() {
             showStatus={false}
             preventMovementUntilSwipeScrollTolerance={true}
             swipeScrollTolerance={50}
+            showThumbs={false}
           >
             {gamesSection.achievementsCards.map((card, i) => {
               return (

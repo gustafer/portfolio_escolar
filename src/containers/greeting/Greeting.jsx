@@ -3,15 +3,17 @@ import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import VanillaTilt from 'vanilla-tilt';
 import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import Tilt from 'react-parallax-tilt';
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
+
   if (!greeting.displayGreeting) {
     return null;
   }
+
   return (
     <div className="greet-main" id="greeting">
       <div className="greeting-main">
@@ -46,19 +48,15 @@ export default function Greeting() {
             </div>
           </div>
         </div>
-        <body>
-<div class="your-element" data-tilt></div>
-
-        <div className="greeting-image-div">
-          <img
-            alt="man sitting on table"
-            className="profile"
-            src={"/assets/images/profile.png"}
-          ></img>
-        </div>
-        
-<script type="text/javascript" src="vanilla-tilt.js"></script>
-</body>
+          <div className="greeting-image-div">
+            <Tilt className="Tilt" options={{ max: 25 }}  >
+              <img
+                alt="man sitting on table"
+                className="profile"
+                src={"/assets/images/profile.png"}
+              ></img>
+            </Tilt>
+          </div>
       </div>
     </div>
   );
