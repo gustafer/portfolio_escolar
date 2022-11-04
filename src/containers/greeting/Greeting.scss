@@ -6,6 +6,7 @@
   margin: 0px auto;
   margin-top: 4rem;
 }
+
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -25,10 +26,11 @@
   display: flex;
 }
 
-.greeting-main > * {
+.greeting-main>* {
   flex: 1;
   margin-bottom: 30px;
 }
+
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
@@ -45,13 +47,30 @@
   line-height: 40px;
 }
 
-.greeting-image-div > .Tilt > img {
+.greeting-image-div>.Tilt>img {
   max-width: 40%;
   margin-top: 2rem;
   height: auto;
   margin: auto;
   margin-bottom: -10rem;
   display: block;
+  border: 0.15rem solid;
+  border-color: rgba(0, 0, 0, 0.144);
+  border-radius: 2rem;
+  display: flex;
+}
+
+.profileName {
+  writing-mode: vertical-lr;
+  margin-left: 10rem;
+  background: linear-gradient(#55198b, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.profileName-dark-mode {
+  writing-mode: vertical-lr;
+  margin-left: 10rem;
 }
 
 .wave-emoji {
@@ -66,21 +85,27 @@
   0% {
     transform: rotate(0deg);
   }
+
   10% {
     transform: rotate(-10deg);
   }
+
   20% {
     transform: rotate(12deg);
   }
+
   30% {
     transform: rotate(-10deg);
   }
+
   40% {
     transform: rotate(9deg);
   }
+
   50% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -91,30 +116,47 @@
   .greeting-text {
     font-size: 50px;
   }
+
   .greeting-text-p {
     font-size: 20px;
   }
-  
+
 }
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
   }
+
   .greeting-text {
     font-size: 30px;
     text-align: center;
   }
+
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
     text-align: center;
   }
+
   .greeting-main {
     display: block;
   }
-  .greeting-image-div > .Tilt  >img {
-    width:100%;
+
+  .greeting-image-div>.Tilt>img {
+    width: 100%;
   }
+
+  .profileName {
+    writing-mode: vertical-lr;
+    margin-left: 5rem;
+  }
+
+  .profileName-dark-mode {
+    writing-mode: vertical-lr;
+    margin-left: 5rem;
+  }
+
 }
 
 @media (max-width: 320px) {

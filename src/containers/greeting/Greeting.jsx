@@ -49,17 +49,17 @@ export default function Greeting() {
           </div>
         </div>
           <div className="greeting-image-div">
-            <Tilt className="Tilt" 
-    transitionSpeed={10}
-    tiltReverse={true}
-    gyroscope={true}
-  >
+          <Tilt className="Tilt" tiltMaxAngleX={20} 
+        tiltMaxAngleY={20} perspective={1000}
+        gyroScope={true} >
               <img
                 alt="man sitting on table"
                 className="profile"
                 src={"/assets/images/profile.png"}
               ></img>
+              <div className={isDark ? "profileName-dark-mode" : "profileName"}>ustav#0397</div>
             </Tilt>
+            
           </div>
       </div>
     </div>

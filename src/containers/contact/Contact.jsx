@@ -31,7 +31,7 @@ export default function Contact() {
                 <>
                   <a
                     className="contact-detail"
-                    href={"tel:" + contactInfo.discord}
+                    href={contactInfo.discord}
                   >
                     {contactInfo.discord}
                   </a>
