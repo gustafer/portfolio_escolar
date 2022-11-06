@@ -9,8 +9,12 @@
 .splash-animation-container {
   height: 50vh;
 }
-
-.splash-title-container {
+.splash-container {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: purple;
+}
+.dark-mode .splash-container {
   font-size: 2.5rem;
   text-decoration: none;
 }
