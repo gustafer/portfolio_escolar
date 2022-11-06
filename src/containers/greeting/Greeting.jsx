@@ -51,7 +51,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
           <Tilt className="Tilt" tiltMaxAngleX={20} 
         tiltMaxAngleY={20} perspective={1000}
-        gyroScope={true} >
+        gyroscope={true} >
               <img
                 alt="man sitting on table"
                 className="profile"
