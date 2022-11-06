@@ -215,21 +215,8 @@ const bigProjects = {
         }
       ]
     },
-    {
-    image: "./assets/images/credit.png",
-      projectName: "Créditos sociais",
-      projectDesc: "Já imaginou fazer uma pesquisa sobre créditos sociais? em estágio de desenvolvimento.",
-      footerLink : [
-        {
-          name: "Veja o github",
-          url: "https://github.com/gustafer/social-credits"
-        },
-        {
-          name: "Site",
-          url: "https://social-credits.vercel.app",
-        }
-      ]
-      }
+    
+    
       
     //  you can add extra buttons here.
   ],
