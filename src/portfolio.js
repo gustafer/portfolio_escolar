@@ -192,7 +192,7 @@ const bigProjects = {
     {
       image: "./assets/images/harryLogo.png",
       projectName: "Harry App",
-      projectDesc: "Projeto baseado em typescript e HP api, em parceria.",
+      projectDesc: "Quer saber mais sobre os personagens de Harry Potter? Em parceria.",
       footerLink : [
         {
           name: "Veja o github",
@@ -207,7 +207,7 @@ const bigProjects = {
     {
       image: "./assets/images/manOnTable.svg",
       projectName: "Portfolio Escolar",
-      projectDesc: "Este projeto que você está vendo agora ",
+      projectDesc: "Este projeto que você está vendo agora, feito tambêm em parceria. ",
       footerLink: [
         {
           name: "Veja o github",
@@ -215,6 +215,22 @@ const bigProjects = {
         }
       ]
     },
+    {
+    image: "./assets/images/credit.png",
+      projectName: "Créditos sociais",
+      projectDesc: "Já imaginou fazer uma pesquisa sobre créditos sociais? em estágio de desenvolvimento.",
+      footerLink : [
+        {
+          name: "Veja o github",
+          url: "https://github.com/gustafer/social-credits"
+        },
+        {
+          name: "Site",
+          url: "https://social-credits.vercel.app",
+        }
+      ]
+      }
+      
     //  you can add extra buttons here.
   ],
   display: true // Set false to hide this section, defaults to true
