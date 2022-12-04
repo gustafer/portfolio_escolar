@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import emoji from "react-easy-emoji";
 import "./Greeting.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
@@ -6,9 +6,17 @@ import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Tilt from 'react-parallax-tilt';
+import { useEffect } from "react";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
+  const [isToggle, setIsToggle] = useState(false);
+
+  const handleToggle = () => {
+    setIsToggle(isTog => !isTog);
+
+    // console.log('aaaaaa clicou ')
+  }
 
   if (!greeting.displayGreeting) {
     return null;
@@ -45,22 +53,35 @@ export default function Greeting() {
                   href={greeting.resumeLink}
                 />
               )}
+              <Button onClick={handleToggle}><i className="fa-solid fa-music"></i></Button>
+       
+             
             </div>
           </div>
         </div>
-          <div className="greeting-image-div">
-          <Tilt className="Tilt" tiltMaxAngleX={20} 
-        tiltMaxAngleY={20} perspective={1000}
-        gyroscope={true} >
-              <img
-                alt="man sitting on table"
-                className="profile"
-                src={"/assets/images/profile.png"}
-              ></img>
-              <div className={isDark ? "profileName-dark-mode" : "profileName"}>ustav#0397</div>
-            </Tilt>
-            
+        <div className="greeting-image-div" >
+          <div className={`greeting-image-inner  ${isToggle ? 'is-flipped' : ''}`}>
+            <div className="card__face--front">
+              <Tilt className="Tilt" tiltMaxAngleX={20}
+                tiltMaxAngleY={20} perspective={1000}
+                gyroscope={true} >
+                <img
+                  alt="man sitting on table"
+                  className="profile"
+                  src={"/assets/images/profile.png"}
+                ></img>
+                <div className={isDark ? "profileName-dark-mode" : "profileName"}>ustav#0397</div>
+              </Tilt>
+            </div>
+            <div className="card__face--back">
+              <iframe style={{borderRadius:"12px"}}
+                src="https://open.spotify.com/embed/track/5w4KDy9LBWjK8nm7JwKMLh?utm_source=generator"
+                width="50%" height="352" frameBorder="0" allowFullScreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+              </iframe>
+            </div>
           </div>
+        </div>
       </div>
     </div>
   );

@@ -47,17 +47,50 @@
   line-height: 40px;
 }
 
-.greeting-image-div>.Tilt>img {
-  max-width: 40%;
-  margin-top: 2rem;
-  height: auto;
-  margin: auto;
-  margin-bottom: -10rem;
-  display: block;
-  border: 0.15rem solid;
-  border-color: rgba(0, 0, 0, 0.144);
-  border-radius: 2rem;
-  display: flex;
+
+.greeting-image-div {
+  perspective: 1000px;
+
+  .greeting-image-inner.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .greeting-image-inner {
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+
+  .card__face--back {
+    transform: rotateY(180deg);
+    margin-top: 3rem;
+  }
+
+  .card__face--front,
+  .card__face--back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+  }
+
+  .Tilt {
+    img {
+      max-width: 40%;
+      margin-top: 2rem;
+      height: auto;
+      margin: auto;
+      margin-bottom: -10rem;
+      display: block;
+      border: 0.15rem solid;
+      border-color: rgba(0, 0, 0, 0.144);
+      border-radius: 2rem;
+      display: flex;
+    }
+  }
+
 }
 
 .profileName {
