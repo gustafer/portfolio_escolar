@@ -3,7 +3,9 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation";
+
+// Rename to your file name for custom animation
 
 // Splash Screen
 
@@ -212,6 +214,10 @@ const bigProjects = {
         {
           name: "Veja o github",
           url: "https://github.com/gustafer/portfolio_escolar",
+        },
+        {
+          name: "Site",
+          url: "https://ustav.vercel.app",
         }
       ]
     },

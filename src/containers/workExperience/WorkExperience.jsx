@@ -3,6 +3,7 @@ import "./WorkExperience.scss";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
 import {workExperiences} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { Fade } from "react-awesome-reveal";
 
 export default function WorkExperience() {
   const {isDark} = useContext(StyleContext);

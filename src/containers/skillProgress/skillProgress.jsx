@@ -28,7 +28,7 @@ export default function StackProgress() {
         <div className="skills-image">
           <img
             alt="Skills"
-            src={"/assets/images/amogus.jpg"}
+            src={"/assets/images/stars.svg"}
           />
 
         </div>

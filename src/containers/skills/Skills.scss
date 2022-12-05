@@ -4,10 +4,18 @@
   display: flex;
   width: 100%;
   overflow: hidden;
-  
-  margin-top: 5rem;
+  margin-bottom: 10rem;
 }
-
+// .background-image{
+//   position: absolute;
+//   opacity: .4;
+//   background-position: 50% center, 50% center;
+//   display: flex;
+//   background-size: cover, cover;
+//   display: flex;
+//   -webkit-box-align: center;
+//   align-items: center;
+// }
 .skills-text-div {
   margin-left: 50px;
 }
@@ -19,8 +27,6 @@
 }
 
 .skills-image-div > img {
-  max-width: 100%;
-  height: auto;
 }
 
 .skills-heading {
@@ -39,7 +45,6 @@
 }
 @media (max-width: 768px) {
   .skills-main-div {
-    margin-top: 25rem;
     margin-bottom: -5rem;
   }
   .skills-heading {

@@ -10,6 +10,7 @@
   padding: 20px 0px;
   margin: 0px auto;
   margin-top: 2rem;
+  margin-bottom: 13rem ;
 }
 
 .education-section > * {
@@ -38,6 +39,7 @@
 
 @media (max-width: 768px) {
   .education-card-container {
+    margin-top: unset;
     padding-top: 0px;
   }
   .education-heading {

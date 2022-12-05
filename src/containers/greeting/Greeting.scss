@@ -3,23 +3,31 @@
 .d-none {
   display: none;
 }
-
+// .background-image{
+//   position: absolute;
+//   opacity: 0.1;
+// }
 .main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  margin-top: 2rem ;
+  
 }
 
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 2rem;
+  margin-top: 8rem;
+
+
 }
 
 .greeting-main {
   display: flex;
+  margin-bottom: 20rem;
+
 }
 
 .subTitle {
@@ -28,6 +36,7 @@
 
 .greeting-main {
   display: flex;
+  
 }
 
 .greeting-main>* {
@@ -83,7 +92,7 @@
   .Tilt {
     img {
       max-width: 40%;
-      margin-top: 2rem;
+      margin-top: 5rem;
       height: auto;
       margin: auto;
       margin-bottom: -10rem;
@@ -178,20 +187,22 @@
 
   .greeting-main {
     display: block;
+    margin-bottom: 38rem !important;
   }
 
   .greeting-image-div {
     
     .card__face--back { 
-      margin-top: 1rem !important;
       iframe{
-        width: 90%;
+        width: 70%;
+        height: 350px;
+
       }
     }
     .Tilt {
       img {
-        margin-top: 1rem;
-        max-width: 60% !important;
+        margin-top: 2rem;
+        max-width: 50% !important;
       }
 
     }

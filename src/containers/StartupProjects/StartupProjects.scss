@@ -24,6 +24,7 @@
   border-radius: 10px;
   border: 1px solid $lightBorder1;
   justify-content: center;
+  margin-bottom: 15rem;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -83,10 +84,9 @@
   background:$buttonHover;
 }
 @media (max-width: 768px) {
-  .skills-heading {
-    margin-top: -4rem;
+  .projects-container {
+    margin-bottom: 10rem;
   }
-
   }
   .project-subtitle {
     font: 19px / 23px Montserrat, "Montserrat", sans-serif;

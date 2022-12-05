@@ -5,6 +5,7 @@ import { gamesSection } from "../../portfolio";
 import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 import { Carousel } from 'react-responsive-carousel';
+import { Fade } from "react-awesome-reveal";
 
 export default function Achievement() {
   const { isDark } = useContext(StyleContext);
@@ -24,6 +25,7 @@ export default function Achievement() {
           >
             {gamesSection.title}
             <span className="joystick-emoji">{emoji("🎮")}</span>
+           
           </h1 >
           <p
             className={
