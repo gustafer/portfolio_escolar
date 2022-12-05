@@ -11,9 +11,9 @@ export default function Footer() {
           {emoji("Feito com ❤️, ustav.")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Open source de{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
+          Open source no {" "}
+          <a href="https://github.com/gustafer/portfolio_ustav">
+            github
           </a>
         </p>
       </div>
