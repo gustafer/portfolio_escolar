@@ -7,16 +7,27 @@ import { greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Tilt from 'react-parallax-tilt';
 import { useEffect } from "react";
+import { useRef } from "react";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   const [isToggle, setIsToggle] = useState(false);
+  const divFaceFront = useRef(null);
 
   const handleToggle = () => {
     setIsToggle(isTog => !isTog);
 
     // console.log('aaaaaa clicou ')
   }
+
+  useEffect(() => {
+    if (isToggle)
+      setTimeout(() => {
+        divFaceFront.current.classList.add("d-none");
+      }, 300);
+    else divFaceFront.current.classList.remove("d-none");
+
+  }, [isToggle])
 
   if (!greeting.displayGreeting) {
     return null;
@@ -54,14 +65,14 @@ export default function Greeting() {
                 />
               )}
               <Button onClick={handleToggle}><i className="fa-solid fa-music"></i></Button>
-       
-             
+
+
             </div>
           </div>
         </div>
         <div className="greeting-image-div" >
           <div className={`greeting-image-inner  ${isToggle ? 'is-flipped' : ''}`}>
-            <div className="card__face--front">
+            <div ref={divFaceFront} className="card__face--front">
               <Tilt className="Tilt" tiltMaxAngleX={20}
                 tiltMaxAngleY={20} perspective={1000}
                 gyroscope={true} >
@@ -74,7 +85,7 @@ export default function Greeting() {
               </Tilt>
             </div>
             <div className="card__face--back">
-              <iframe style={{borderRadius:"12px"}}
+              <iframe style={{ borderRadius: "12px" }}
                 src="https://open.spotify.com/embed/playlist/6Xf2m3HRNDWz6HOWwuU1dt?utm_source=generator"
                 width="50%" height="352" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
