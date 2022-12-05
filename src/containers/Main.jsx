@@ -18,6 +18,7 @@ import { StyleProvider } from "../contexts/StyleContext";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 import GameExperiences from "./workExperience/WorkExperience";
+import { Fade, Slide, Roll } from "react-awesome-reveal";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -48,19 +49,35 @@ const Main = () => {
           <SplashScreen />
         ) : (
           <>
-            <Header />
-            <Greeting />
-            <Skills />
-            <Education />
+            <Fade duration={2000} triggerOnce={true}>
+              <Header />
+              <Greeting />
+              <Skills />
+            </Fade>
+            <Fade duration={4000} triggerOnce={true}>
+              <Fade duration={2000} direction={'left'} triggerOnce={true}>
+                <Education />
+              </Fade>
+            </Fade>
+            <Fade triggerOnce={true}>
             <GameExperiences />
             <StartupProject />
             <Achievement />
+            </Fade>
             <Blogs />
             <Talks />
             <Twitter />
             <Podcast />
+            <Fade duration={2000} triggerOnce={true}>
+            <Fade direction="left" triggerOnce={true}>
             <Profile />
-            <Footer />
+            </Fade>
+            </Fade>
+            <Fade triggerOnce={true} duration={2000} >
+            <Fade direction="down" triggerOnce={true}>
+              <Footer />
+            </Fade>
+            </Fade>
             <ScrollToTopButton />
           </>
         )}

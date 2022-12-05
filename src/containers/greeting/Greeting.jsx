@@ -8,6 +8,7 @@ import StyleContext from "../../contexts/StyleContext";
 import Tilt from 'react-parallax-tilt';
 import { useEffect } from "react";
 import { useRef } from "react";
+import { Fade } from "react-awesome-reveal";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -35,7 +36,9 @@ export default function Greeting() {
 
   return (
     <div className="greet-main" id="greeting">
-      <div className="greeting-main">
+      
+    {/* <img background-image src="/assets/images/stars.svg" className="background-image" draggable="false"></img> */}
+    <div className="greeting-main">
         <div className="greeting-text-div">
           <div>
             <h1
@@ -86,7 +89,7 @@ export default function Greeting() {
             </div>
             <div className="card__face--back">
               <iframe style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/playlist/6Xf2m3HRNDWz6HOWwuU1dt?utm_source=generator"
+                src="https://open.spotify.com/embed/track/5w4KDy9LBWjK8nm7JwKMLh?utm_source=generator"
                 width="60%" height="452" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
               </iframe>
