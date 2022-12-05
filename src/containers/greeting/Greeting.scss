@@ -1,6 +1,6 @@
 @import "../../_globalColor";
 
-.d-none{
+.d-none {
   display: none;
 }
 
@@ -180,8 +180,21 @@
     display: block;
   }
 
-  .greeting-image-div>.Tilt>img {
-    width: 100%;
+  .greeting-image-div {
+    
+    .card__face--back { 
+      margin-top: 1rem !important;
+      iframe{
+        width: 90%;
+      }
+    }
+    .Tilt {
+      img {
+        margin-top: 1rem;
+        max-width: 60% !important;
+      }
+
+    }
   }
 
   .profileName {

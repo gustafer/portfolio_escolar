@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
     "react": "^18.2.0",
+    "react-awesome-reveal": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.68",
     "react-responsive-carousel": "^3.2.7",

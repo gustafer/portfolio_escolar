@@ -87,7 +87,7 @@ export default function Greeting() {
             <div className="card__face--back">
               <iframe style={{ borderRadius: "12px" }}
                 src="https://open.spotify.com/embed/playlist/6Xf2m3HRNDWz6HOWwuU1dt?utm_source=generator"
-                width="50%" height="352" frameBorder="0" allowFullScreen=""
+                width="60%" height="452" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
               </iframe>
             </div>
