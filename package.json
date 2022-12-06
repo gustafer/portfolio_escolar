@@ -15,6 +15,7 @@
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.68",
     "react-responsive-carousel": "^3.2.7",
+    "react-tooltip": "^4.5.1",
     "yarn": "^1.22.19"
   },
   "devDependencies": {

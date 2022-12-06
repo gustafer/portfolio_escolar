@@ -5,6 +5,9 @@ import {illustration, contactInfo} from "../../portfolio";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
+import Button from "../../components/button/Button";
+import ReactTooltip from 'react-tooltip';
+
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
@@ -30,10 +33,9 @@ export default function Contact() {
               {contactInfo.discord && (
                 <>
                   <a
-                    className="contact-detail"
-                    href={contactInfo.discord}
-                  >
-                    {contactInfo.discord}
+                    className="contact-detail" onClick={() => {navigator.clipboard.writeText(contactInfo.discord)}} data-tip="Copiar"
+                    >
+                    {contactInfo.discord}<ReactTooltip />
                   </a>
                   <br />
                   <br />
@@ -42,7 +44,8 @@ export default function Contact() {
               <a
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
-              >
+                data-tip="Enviar mensagem"
+              ><ReactTooltip />
                 {contactInfo.email_address}
               </a>
               <br />
