@@ -65,6 +65,7 @@ export default function Greeting() {
                   text="Veja meu resumo"
                   newTab={true}
                   href={greeting.resumeLink}
+                  className="botao"
                 />
               )}
               <Button onClick={handleToggle}><i className="fa-solid fa-music"></i></Button>
@@ -91,7 +92,8 @@ export default function Greeting() {
               <iframe style={{ borderRadius: "12px" }}
                 src="https://open.spotify.com/embed/track/5w4KDy9LBWjK8nm7JwKMLh?utm_source=generator"
                 width="60%" height="452" frameBorder="0" allowFullScreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+                >
               </iframe>
             </div>
           </div>

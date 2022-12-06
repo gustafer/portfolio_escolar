@@ -1,5 +1,4 @@
 @import "../../_globalColor";
-
 .d-none {
   display: none;
 }
@@ -14,7 +13,6 @@
   margin-top: 2rem ;
   
 }
-
 .greet-main {
   width: 90%;
   padding: 20px 10px;
@@ -47,6 +45,7 @@
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
+  justify-content: left;
 }
 
 .greeting-text {
@@ -88,7 +87,6 @@
     /* Safari */
     backface-visibility: hidden;
   }
-
   .Tilt {
     img {
       max-width: 40%;
@@ -98,9 +96,10 @@
       margin-bottom: -10rem;
       display: block;
       border: 0.15rem solid;
-      border-color: rgba(0, 0, 0, 0.144);
+      border-color: rgba(128, 128, 128, 0.371);
       border-radius: 2rem;
       display: flex;
+      
     }
   }
 
