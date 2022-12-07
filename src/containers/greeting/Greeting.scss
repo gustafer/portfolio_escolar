@@ -99,7 +99,13 @@
       border-color: rgba(128, 128, 128, 0.371);
       border-radius: 2rem;
       display: flex;
+
       
+      
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     }
   }
 
@@ -109,6 +115,7 @@
   writing-mode: vertical-lr;
   margin-left: 10rem;
   background: linear-gradient(#55198b, blue);
+  background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
