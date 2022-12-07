@@ -84,6 +84,8 @@ export default function Greeting() {
                   alt="man sitting on table"
                   className="profile"
                   src={"/assets/images/profile.png"}
+                draggable={false}
+                
                 ></img>
                 <div className={isDark ? "profileName-dark-mode" : "profileName"}>ustav#0397</div>
               </Tilt>
