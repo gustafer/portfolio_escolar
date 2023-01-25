@@ -11,6 +11,7 @@
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem ;
+  margin-bottom: 20rem !important;
   
 }
 .greet-main {
@@ -82,15 +83,15 @@
   .card__face--back {
     position: absolute;
     width: 100%;
-    height: 100%;
+
     -webkit-backface-visibility: hidden;
     /* Safari */
     backface-visibility: hidden;
   }
   .Tilt {
     img {
-      max-width: 40%;
-      margin-top: 5rem;
+      max-width: 40vh;
+      margin-top: 2rem !important;
       height: auto;
       margin: auto;
       margin-bottom: -10rem;
@@ -203,15 +204,15 @@
     
     .card__face--back { 
       iframe{
-        width: 70%;
-        height: 350px;
+        width: 40vh;
+        height: 45vh;
 
       }
     }
     .Tilt {
       img {
         margin-top: 2rem;
-        max-width: 50% !important;
+        max-width: 40vh !important;
       }
 
     }

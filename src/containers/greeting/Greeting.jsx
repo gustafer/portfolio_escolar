@@ -8,7 +8,7 @@ import StyleContext from "../../contexts/StyleContext";
 import Tilt from 'react-parallax-tilt';
 import { useEffect } from "react";
 import { useRef } from "react";
-import { Fade } from "react-awesome-reveal";
+import ReactPlayer from "react-player"
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -83,11 +83,11 @@ export default function Greeting() {
                 <img
                   alt="man sitting on table"
                   className="profile"
-                  src={"/assets/images/profile.png"}
+                  src={"/assets/images/profile2.png"}
                 draggable={false}
                 
                 ></img>
-                <div className={isDark ? "profileName-dark-mode" : "profileName"}>ustav#0397</div>
+                <div className={isDark ? "profileName-dark-mode" : "profileName"}></div>
               </Tilt>
             </div>
             <div className="card__face--back">

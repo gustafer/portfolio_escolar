@@ -52,7 +52,10 @@ const Main = () => {
             <Fade duration={2000} triggerOnce={true}>
               <Header />
               <Greeting />
+            <Achievement />
+
               <Skills />
+
             </Fade>
             <Fade duration={4000} triggerOnce={true}>
               <Fade duration={2000} direction={'left'} triggerOnce={true}>
@@ -62,7 +65,6 @@ const Main = () => {
             <Fade triggerOnce={true}>
             <GameExperiences />
             <StartupProject />
-            <Achievement />
             </Fade>
             <Blogs />
             <Talks />

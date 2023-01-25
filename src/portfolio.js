@@ -22,10 +22,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Gus",
-  title: "Olá, eu sou Gus",
+  username: "ustav",
+  title: "Eae, eu sou o ustav",
   subTitle: emoji(
-    "um cara aprendendo coisas sobre programação"
+    "vulgo melhor jhin br"
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -106,17 +106,25 @@ const educationInfo = {
       schoolName: "CNA Grajáu, Online",
       logo: "./assets/images/cnalogo.png",
       subHeader: "Avançado, penúltimo módulo",
-      duration: "Fevereiro 2016 - Novembro 2022...",
+      duration: "Fevereiro 2016 - EM ANDAMENTO",
       desc: "Participou da prova de st.Patrick",
       descBullets: [
         "Aprender uma outra lingua é libertar-se de padrões."
       ]
     },
     {
+      schoolName: "ETECIA",
+      logo: "./assets/images/etecia.png",
+      subHeader: "Ensino médio técnico, 1° ano",
+      duration: "Fevereiro 2023 - EM ANDAMENTO",
+      desc: "Etec irmã agostina",
+      descBullets: ["Curso de Quimíca"]
+   },
+    {
       schoolName: "Escola E.M.E.F. Padre José Pegoraro",
       logo: "./assets/images/stanfordLogo.png",
       subHeader: "Ensino fundamental, 9° Ano",
-      duration: "Fevereiro 2013 - Novembro 2022...",
+      duration: "Fevereiro 2013 - Dezembro 2022",
       desc: "Participei de um teatro em 2016, programa de robótica em 2017",
       descBullets: ["Melhores notas da sala."]
     }
@@ -241,7 +249,7 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        "Venho jogando desde 2016, Hardstuck gold, main Jhin",
+        "Venho jogando desde 2016, platina, main Jhin e Tristana",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
