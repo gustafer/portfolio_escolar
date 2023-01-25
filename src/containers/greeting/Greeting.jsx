@@ -78,8 +78,7 @@ export default function Greeting() {
           <div className={`greeting-image-inner  ${isToggle ? 'is-flipped' : ''}`}>
             <div ref={divFaceFront} className="card__face--front">
               <Tilt className="Tilt" tiltMaxAngleX={20}
-                tiltMaxAngleY={20} perspective={1000}
-                gyroscope={true} >
+                tiltMaxAngleY={20} perspective={1000} >
                 <img
                   alt="man sitting on table"
                   className="profile"
