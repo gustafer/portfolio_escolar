@@ -249,7 +249,7 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        "Venho jogando desde 2016, platina, main Jhin e Tristana",
+        "jogo desde 2016, platina, main Jhin e Tristana",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -267,8 +267,8 @@ const gamesSection = {
     {
       title: "Valorant",
       subtitle:
-        "Outro da riot, sou um jogador casual, prata e main Chamber",
-      image: "./assets/images/valorant.png",
+        "Outro da riot, ouro e main Omen",
+      image: "./assets/images/omenart.png",
       imageAlt: "Google Code-In Logo",
       footerLink : [
         {
@@ -297,7 +297,7 @@ const gamesSection = {
 
     {
       title: "Brawlhalla",
-      subtitle: "Jogo muito bom, basicamente um smashbros só que jogável",
+      subtitle: "Jogo muito bom, basicamente um smashbros",
       image: "./assets/images/brawlhalla.png",
       imageAlt: "PWA Logo",
       footerLink: [
