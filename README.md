@@ -1,5 +1,5 @@
 # Portfólio ustav
-Esse projeto foi usada partes antigas de [SaadPasta](https://github.com/saadpasta), foi utilizado o projeto [developerFolio](https://github.com/saadpasta/developerFolio) como base. 
+Esse projeto foi usada partes antigas do projeto [developerFolio](https://github.com/saadpasta/developerFolio) de [SaadPasta](https://github.com/saadpasta) como base. 
 Foram atualizadas js para jsx
 
 ## Site no ar
@@ -7,7 +7,7 @@ Foram atualizadas js para jsx
 Site exemplo [aqui](https://gustav.vercel.app/) veja como ele funciona na prática.
 
 ## Personalização
-Personalize o que quiser em `/src/portfolio.js` e modifique à sua necessidade. Talvez tambem seja necessária a edição de `index.html` para mudar o título e a metadata.
+Personalize o que quiser em `/src/portfolio.js` e modifique à sua necessidade. Talvez tambêm seja necessária a edição de `index.html` para mudar o título e a metadata.
 
 ## Usagem
 No codigo tem varios exemplos de usagem, como
