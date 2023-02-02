@@ -273,7 +273,7 @@ const gamesSection = {
       footerLink : [
         {
           name: "Tracker.gg",
-          url: "https://tracker.gg/valorant/profile/riot/SirGustaf%23BR1/overview"
+          url: "https://tracker.gg/valorant/profile/riot/skull%23ustav/overview"
         },
         {
           name: "Riot Games",
