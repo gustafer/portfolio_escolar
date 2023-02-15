@@ -255,7 +255,7 @@ const gamesSection = {
       footerLink: [
         {
           name: "OP.GG",
-          url: "https://www.op.gg/summoners/br/LeftJhinDead"
+          url: "https://u.gg/lol/profile/br1/leftjhindead/overview"
         },
         {
           name: "Riot Games",
