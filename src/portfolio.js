@@ -254,7 +254,7 @@ const gamesSection = {
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "OP.GG",
+          name: "U.GG",
           url: "https://u.gg/lol/profile/br1/leftjhindead/overview"
         },
         {
