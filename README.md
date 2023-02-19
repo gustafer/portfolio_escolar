@@ -4,7 +4,7 @@ Foram atualizadas js para jsx
 
 ## Site no ar
 
-Site exemplo [aqui](https://gustav.vercel.app/) veja como ele funciona na prática.
+Site exemplo [aqui](https://ustav.vercel.app/) veja como ele funciona na prática.
 
 ## Personalização
 Personalize o que quiser em `/src/portfolio.js` e modifique à sua necessidade. Talvez tambêm seja necessária a edição de `index.html` para mudar o título e a metadata.
