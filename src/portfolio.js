@@ -109,7 +109,7 @@ const educationInfo = {
       duration: "Fevereiro 2016 - EM ANDAMENTO",
       desc: "Participou da prova de st.Patrick",
       descBullets: [
-        "Aprender uma outra lingua é libertar-se de padrões."
+        "Inglês."
       ]
     },
     {
@@ -123,10 +123,9 @@ const educationInfo = {
     {
       schoolName: "Escola E.M.E.F. Padre José Pegoraro",
       logo: "./assets/images/stanfordLogo.png",
-      subHeader: "Ensino fundamental, 9° Ano",
+      subHeader: "Ensino fundamental, con",
       duration: "Fevereiro 2013 - Dezembro 2022",
-      desc: "Participei de um teatro em 2016, programa de robótica em 2017",
-      descBullets: ["Melhores notas da sala."]
+      desc: "Teatro em 2016, Robótica em 2017",
     }
   ]
 };
@@ -249,7 +248,7 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        "jogo desde 2016, platina, main Jhin e Tristana",
+        " Platina, main Jhin e Tristana",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -267,8 +266,8 @@ const gamesSection = {
     {
       title: "Valorant",
       subtitle:
-        "Outro da riot, ouro e main Omen",
-      image: "./assets/images/omenart.png",
+        "CSGO da riot, ouro e mono Neon",
+      image: "./assets/images/neonart.png",
       imageAlt: "Google Code-In Logo",
       footerLink : [
         {

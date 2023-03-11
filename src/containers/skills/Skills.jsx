@@ -12,7 +12,7 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-          <div className="skills-image-div">            
+          <div className="skills-image-div">  
           </div>
           <div className="skills-text-div">
             <h1
@@ -30,7 +30,7 @@ export default function Skills() {
               {skillsSection.subTitle}
             </p>
             <SoftwareSkill />
-            <div>
+            <div background="./assets/images/league.png">
               {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
