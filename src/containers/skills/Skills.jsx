@@ -12,9 +12,7 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-          <div className="skills-image-div">
-    {/* <img background-image src="/assets/images/stars.svg" className="background-image" draggable="false"></img> */}
-            
+          <div className="skills-image-div">            
           </div>
           <div className="skills-text-div">
             <h1

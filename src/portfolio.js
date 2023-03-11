@@ -23,9 +23,9 @@ const illustration = {
 
 const greeting = {
   username: "ustav",
-  title: "Eae, eu sou o ustav",
-  subTitle: emoji(
-    "vulgo melhor jhin br"
+  title: "Olá, eu sou o ustav",
+  subTitle: (
+    " simplesmente o melhor jhin br "
   ),
   resumeLink:
     "", // Set to empty to hide the button

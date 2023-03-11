@@ -37,7 +37,6 @@ export default function Greeting() {
   return (
     <div className="greet-main" id="greeting">
       
-    {/* <img background-image src="/assets/images/stars.svg" className="background-image" draggable="false"></img> */}
     <div className="greeting-main">
         <div className="greeting-text-div">
           <div>
@@ -45,8 +44,8 @@ export default function Greeting() {
               className={isDark ? "dark-mode greeting-text" : "greeting-text"}
             >
               {" "}
-              {greeting.title}{" "}
-              <span className="wave-emoji">{emoji("👋")}</span>
+              
+              {greeting.title}<span className="wave-emoji">{emoji("🤙")}</span>{}
             </h1>
             <p
               className={
@@ -91,7 +90,7 @@ export default function Greeting() {
             </div>
             <div className="card__face--back">
               <iframe style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/track/5w4KDy9LBWjK8nm7JwKMLh?utm_source=generator"
+                src="https://open.spotify.com/embed/track/6bJgpGMGgaLfsEE3v7j1ix?utm_source=generator&theme=0"
                 width="60%" height="452" frameBorder="0" allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
                 >

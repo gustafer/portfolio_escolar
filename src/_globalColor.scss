@@ -3,8 +3,8 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
+$buttonColor: #7700df;
+$buttonHover: #560f94;
 $topButtonHover: #000;
 
 // text colors light theme
@@ -19,7 +19,7 @@ $blogCardTitleColor: #262626;
 $textColorDark: #ffffff;
 
 // toggle switch colors
-$toggleCheck: #55198b;
+$toggleCheck: #8204EE;
 $toggleSwitchSliderBG: #ccc;
 
 // githubRepo specific colors
@@ -36,7 +36,7 @@ $lightBackground2: rgb(255, 255, 255);
 $lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
 // dark background colors
-$darkBackground: #171C28;
+$darkBackground:#282828;
 
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);
@@ -79,8 +79,8 @@ $appLink: #09d3ac;
 
 // social media icons
 $faceBook: #2c2c2c;
-$discord: #272727;
-$github: rgba(68, 68, 68);
+$discord: #0c0c0c;
+$github: #0c0c0c;
 $gitlab: #fc26b5;
 $google: #ea4335;
 $twitter: #1da1f2;
@@ -88,5 +88,5 @@ $medium: rgb(255, 0, 0);
 $stackoverflow: #772558;
 $instagram: #c13584;
 $kaggle: #20beff;
-$steam: rgb(34, 34, 34);
+$steam: #0c0c0c;
 $youtube: rgb(255, 2, 2);
