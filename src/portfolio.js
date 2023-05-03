@@ -118,7 +118,7 @@ const educationInfo = {
       subHeader: "Ensino médio técnico, 1° ano",
       duration: "Fevereiro 2023 - EM ANDAMENTO",
       desc: "Etec irmã agostina",
-      descBullets: ["Curso de Quimíca"]
+      descBullets: ["Curso de Química"]
    },
     {
       schoolName: "Escola E.M.E.F. Padre José Pegoraro",

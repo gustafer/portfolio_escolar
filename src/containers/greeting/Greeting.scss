@@ -74,13 +74,13 @@
     transform: rotateY(180deg);
     margin-top: 3rem;
   }
-
+  .spotify {
+    // border: 1px solid  $lightBorder1;
+  }
   .card__face--front,
   .card__face--back {
     position: absolute;
     width: 100%;
-
-    -webkit-backface-visibility: hidden;
     /* Safari */
     backface-visibility: hidden;
   }
