@@ -248,13 +248,17 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        " Platina, main Jhin e Tristana",
+        " Esmeralda, main Jhin e Tristana",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "U.GG",
           url: "https://u.gg/lol/profile/br1/leftjhindead/overview"
+        },
+        {
+          name: "GGMAX",
+          url: "https://ggmax.com.br/perfil/ustav"
         },
         {
           name: "Riot Games",
@@ -277,6 +281,22 @@ const gamesSection = {
         {
           name: "Riot Games",
           url: "https://playvalorant.com/pt-br/"
+        }
+      ]
+    },
+    {
+      title: "Wild Rift",
+      subtitle: "Lol mobile, sou diamante e main jhin tb",
+      image: "./assets/images/jhinWild.png",
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
+        }
+        {
+          name: "Play Store",
+          url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
         }
       ]
     },
@@ -307,18 +327,7 @@ const gamesSection = {
       ]
     },
     
-    {
-      title: "Pokemon GO",
-      subtitle: "Jogo mobile da niantic, as atualizações estão boas.",
-      image: "./assets/images/pokemon.png",
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {
-          name: "Play Store",
-          url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
-        }
-      ]
-    }
+   
   ],
   display: true// Set false to hide this section, defaults to true
 };
@@ -383,7 +392,7 @@ const contactInfo = {
   title: emoji("Contatos ☎️"),
   subtitle:
     "Quer discutir alguma coisa ou falar comigo?",
-  discord: "ustav#0397",
+  discord: "ustav",
   email_address: "gustavobreasy@gmail.com"
 };
 
