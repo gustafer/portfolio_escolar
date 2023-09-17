@@ -48,12 +48,11 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "O QUE EU FAÇO?",
-  subTitle: "Um estudante de programação, aprendendo estas linguagens",
+  title: "",
+  subTitle: "Coisas legais:",
   skills: [
-    emoji(
-      "⚡ Navego na internet buscando projetos open source e construo com parceria"
-    ),
+    emoji("⚡ Jogo jogos eletrônicos online competitivos "),
+    emoji("⚡ Busco e construo projetos open source "),
     emoji("⚡ Construo projetos open source "),
   ],
 
@@ -293,7 +292,7 @@ const gamesSection = {
         {
           name: "Play Store",
           url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
-        }
+        },
         {
           name: "Play Store",
           url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
