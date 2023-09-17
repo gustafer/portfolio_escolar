@@ -33,7 +33,7 @@ export default function Contact() {
               {contactInfo.discord && (
                 <>
                   <a
-                    className="contact-detail" onClick={() => {navigator.clipboard.writeText(contactInfo.discord)}} data-tip="Copiar"
+                    className="contact-detail" onClick={() => {navigator.clipboard.writeText(contactInfo.discord)}} data-tip="Copiar Discord"
                     >
                     {contactInfo.discord}<ReactTooltip />
                   </a>
