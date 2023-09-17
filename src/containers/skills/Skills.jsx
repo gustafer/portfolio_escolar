@@ -30,6 +30,8 @@ export default function Skills() {
     3000,
     'O que eu quero fazer?',
     3000,
+    'Mas o que a minha pessoa gosta?',
+    3000,
   ]}
   speed={50}
   style={{ fontSize: '1em' }}
