@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@emotion/react": "^11.10.5",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.1.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.68",
     "react-player": "^2.11.0",
     "react-responsive-carousel": "^3.2.7",
+    "react-router-dom": "^6.11.1",
     "react-tooltip": "^4.5.1",
+    "sort-by": "^1.2.0",
     "yarn": "^1.22.19"
   },
   "devDependencies": {

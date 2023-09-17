@@ -28,7 +28,7 @@ const greeting = {
     " simplesmente o melhor jhin br "
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "http://localhost:5173/artes", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 

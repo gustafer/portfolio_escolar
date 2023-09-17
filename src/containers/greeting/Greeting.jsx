@@ -61,8 +61,8 @@ export default function Greeting() {
               <Button text="Me contate" href="#contact" />
               {greeting.resumeLink && (
                 <Button
-                  text="Veja meu resumo"
-                  newTab={true}
+                  text="WALTER WHITE"
+                  newTab={false}
                   href={greeting.resumeLink}
                   className="botao"
                 />
