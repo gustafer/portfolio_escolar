@@ -294,8 +294,8 @@ const gamesSection = {
           url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
         },
         {
-          name: "Play Store",
-          url: "https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=pt_BR&gl=US"
+          name: "Jhin",
+          url: "https://wildrift.leagueoflegends.com/pt-br/champions/jhin/"
         }
       ]
     },

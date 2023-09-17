@@ -44,7 +44,7 @@ export default function Skills() {
                   : "subTitle skills-text-subtitle"
               }
             >
-              {skillsSection.subTitle}
+              {skillsSection.subTitle} <br />
             </p>
             <SoftwareSkill />
             <div background="./assets/images/league.png">
