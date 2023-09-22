@@ -122,7 +122,7 @@ const educationInfo = {
     {
       schoolName: "Escola E.M.E.F. Padre José Pegoraro",
       logo: "./assets/images/stanfordLogo.png",
-      subHeader: "Ensino fundamental, con",
+      subHeader: "Ensino fundamental",
       duration: "Fevereiro 2013 - Dezembro 2022",
       desc: "Teatro em 2016, Robótica em 2017",
     }
