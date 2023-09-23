@@ -8,7 +8,6 @@ import StyleContext from "../../contexts/StyleContext";
 import Tilt from 'react-parallax-tilt';
 import { useEffect } from "react";
 import { useRef } from "react";
-import ReactPlayer from "react-player"
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
