@@ -14,7 +14,7 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/accounts",
+    path: "/contas-lol",
     element: <Accounts />,
   }
 ]);
