@@ -60,7 +60,7 @@ export default function Greeting() {
               <Button text="Me contate" href="#contact" />
               {greeting.resumeLink && (
                 <Button
-                  text="WALTER WHITE"
+                  text="Contas Lol"
                   newTab={false}
                   href={greeting.resumeLink}
                   className="botao"
