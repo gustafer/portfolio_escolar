@@ -28,7 +28,7 @@ const greeting = {
     " simplesmente o melhor jhin br "
   ),
   resumeLink:
-    "http://ustav.vercel.app/contas-lol", // Set to empty to hide the button
+    "https://ustav.vercel.app/contas-lol", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
