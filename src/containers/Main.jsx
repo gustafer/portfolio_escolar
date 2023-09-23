@@ -18,7 +18,7 @@ import { StyleProvider } from "../contexts/StyleContext";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 import GameExperiences from "./workExperience/WorkExperience";
-import { Fade, Slide, Roll } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");

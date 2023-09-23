@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
 import Root from "./routes/root";
-import Art from "./routes/arts";
+import Accounts from "./routes/accountspage";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,8 +14,8 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/artes",
-    element: <Art />,
+    path: "/accounts",
+    element: <Accounts />,
   }
 ]);
 
