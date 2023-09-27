@@ -53,7 +53,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Jogo jogos eletrônicos online competitivos "),
     emoji("⚡ Busco e construo projetos open source "),
-    emoji("⚡ Construo projetos open source "),
+    emoji("⚡ Estudo química e progamação web "),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
