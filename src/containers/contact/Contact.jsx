@@ -35,6 +35,7 @@ export default function Contact() {
                   <a
                     className="contact-detail" onClick={() => {navigator.clipboard.writeText(contactInfo.discord)}} data-tip="Copiar Discord"
                     >
+                    <i className="fa-brands fa-discord minidiscord"></i>
                     {contactInfo.discord}<ReactTooltip />
                   </a>
                   <br />

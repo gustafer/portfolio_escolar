@@ -1,6 +1,16 @@
 @import "../../_globalColor";
 .thesun {
+  position: absolute;
   width: 1rem;
+  font-size: 1.05rem;
+  top: 0.3rem;
+  right: 2rem;
+}
+.themoon {
+  font-size: 1.2rem;
+  left: 1.9rem;
+  bottom: 0.25rem;
+  position: absolute;
 }
 .switch {
   position: relative;
