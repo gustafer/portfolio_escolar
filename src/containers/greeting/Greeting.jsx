@@ -58,14 +58,16 @@ export default function Greeting() {
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Me contate" href="#contact" />
-              {greeting.resumeLink && (
-                <Button
-                  text="Contas Lol"
-                  newTab={false}
-                  href={greeting.resumeLink}
-                  className="botao"
-                />
-              )}
+              {greeting.resumeLink 
+              // && (
+              //   <Button
+              //     text="Contas Lol"
+              //     newTab={false}
+              //     href={greeting.resumeLink}
+              //     className="botao"
+              //   />
+              // )
+              }
               <Button onClick={handleToggle}><i className="fa-solid fa-music"></i></Button>
 
 
