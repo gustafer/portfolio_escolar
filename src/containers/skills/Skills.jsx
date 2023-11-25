@@ -22,15 +22,13 @@ export default function Skills() {
               <TypeAnimation
   sequence={[
     // Same substring at the start will only be typed once, initially
-    'O que eu faço?',
+    'O que eu gosto e faço?',
     3000,
     'O que eu sei fazer?',
     3000,
     'O que gosto de fazer?',
     3000,
     'O que eu quero fazer?',
-    3000,
-    'Mas o que sei fazer?',
     3000,
   ]}
   speed={50}
