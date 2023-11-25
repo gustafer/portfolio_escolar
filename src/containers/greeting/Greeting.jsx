@@ -82,7 +82,7 @@ export default function Greeting() {
                 <img
                   alt="man sitting on table"
                   className="profile"
-                  src={"/assets/images/profile2.png"}
+                  src={"/assets/images/profile3.png"}
                 draggable={false}
                 
                 ></img>
