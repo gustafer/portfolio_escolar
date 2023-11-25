@@ -30,7 +30,7 @@ export default function Skills() {
     3000,
     'O que eu quero fazer?',
     3000,
-    'Mas o que a minha pessoa gosta?',
+    'Mas o que sei fazer?',
     3000,
   ]}
   speed={50}
