@@ -305,7 +305,7 @@ const gamesSection = {
     {
       title: "Terraria",
       subtitle:
-        "200 Horas de gameplay, esse jogo é uma maravilha.",
+        "300 horas de gameplay, perfeito.",
       image: "./assets/images/terraria.png",
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
