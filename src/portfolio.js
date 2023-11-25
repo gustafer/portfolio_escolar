@@ -55,8 +55,8 @@ const skillsSection = {
     emoji("⚡ Busco e construo projetos open source "),
     emoji("⚡ Estudo química e progamação web "),
     emoji("⚡ Pratico tênis de mesa"),
-    emoji("⚡ Gosto de arte e design digital"),
-    emoji("⚡ Aprendendo balisong flipping"),
+    emoji("⚡ Gosto e faço de arte e design digital"),
+    emoji("⚡ Balisong flipping"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
