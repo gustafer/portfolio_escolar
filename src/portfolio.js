@@ -250,7 +250,7 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        " Esmeralda, main Jhin e Tristana",
+        " Esmeralda, main Jhin",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
