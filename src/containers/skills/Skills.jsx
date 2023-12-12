@@ -15,7 +15,7 @@ const skillListing = [
     desc: 'Curto jogos competitivos como CS2, Valorant, LoL, COD e Battlebit Remastered. Também curto Terraria, Hades e uns jogos de ritmo. ',
   },
   {
-    title: '⚡ Estudo química e progamação web',
+    title: '⚡ Química e progamação web',
     style: 'background-chemistry',
     stylemobile:'skill-background-mobile-chemistry',
     desc: 'Faço curso de química na ETECIA(etec irmã agostina) e aprendendo progamação.'
