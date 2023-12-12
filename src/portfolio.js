@@ -25,7 +25,7 @@ const greeting = {
   username: "ustav",
   title: "Olá, eu sou o ustav",
   subTitle: (
-    " simplesmente o melhor jhin br "
+    " Tenho 15 anos e sou desenvolvedor, químico e designer."
   ),
   resumeLink:
     "", // Set to empty to hide the button
@@ -235,7 +235,7 @@ const bigProjects = {
 const gamesSection = {
   title: emoji("Jogos"),
   subtitle:
-    "Eu tambem gosto de jogar, estes são alguns do que mais jogo :",
+    "Eu gosto de jogar, estes são alguns do que mais jogo :",
 
   achievementsCards: [
     {

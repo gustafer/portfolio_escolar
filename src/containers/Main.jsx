@@ -52,7 +52,6 @@ const Main = () => {
             <Fade duration={2000} triggerOnce={true}>
               <Header />
               <Greeting />
-            <Achievement />
 
               <Skills />
 
@@ -65,6 +64,7 @@ const Main = () => {
             <Fade triggerOnce={true}>
             <GameExperiences />
             <StartupProject />
+            <Achievement />
             </Fade>
             <Blogs />
             <Talks />

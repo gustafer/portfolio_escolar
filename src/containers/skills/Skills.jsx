@@ -12,7 +12,7 @@ const skillListing = [
     title: '⚡ Jogos eletrônicos online competitivos',
     style: 'background-games',
     stylemobile:'skill-background-mobile-games',
-    desc: 'Curto jogos competitivos como CS2, Valorant, LoL, COD e Battlebit Remastered. Também curto Terraria, Hades e uns jogos de ritmo. '
+    desc: 'Curto jogos competitivos como CS2, Valorant, LoL, COD e Battlebit Remastered. Também curto Terraria, Hades e uns jogos de ritmo. ',
   },
   {
     title: '⚡ Busco e construo projetos open source',
