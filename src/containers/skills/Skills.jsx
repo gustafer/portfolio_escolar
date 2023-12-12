@@ -9,7 +9,7 @@ import classNames from "classnames";
 
 const skillListing = [
   {
-    title: '⚡ Jogos eletrônicos ',
+    title: '⚡ Jogos Online ',
     style: 'background-games',
     stylemobile:'skill-background-mobile-games',
     desc: 'Curto jogos competitivos como CS2, Valorant, LoL, COD e Battlebit Remastered. Também curto Terraria, Hades e uns jogos de ritmo. ',
