@@ -189,7 +189,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projetos",
-  subtitle: "Alguns projetos open-source que estou trabalhando agora",
+  subtitle: "Alguns projetos open-source que trabalhei",
   projects: [
     {
       image: "./assets/images/harryLogo.png",
@@ -241,7 +241,7 @@ const gamesSection = {
     {
       title: "League of Legends",
       subtitle:
-        " Esmeralda, main Jhin",
+        " Esmeralda, main Jhin.",
       image: "./assets/images/league.png",
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -259,11 +259,27 @@ const gamesSection = {
         }
       ]
     },
-
+    {
+      title: "Fortnite",
+      subtitle:
+        "Lego, guitar hero e rocket league!?",
+      image: "./assets/images/fortnite.png",
+      imageAlt: "Google Code-In Logo",
+      footerLink : [
+        {
+          name: "Fortnite",
+          url: "https://www.fortnite.com/?lang=pt-BR"
+        },
+        {
+          name: "Epic games",
+          url: "https://store.epicgames.com/pt-BR/p/fortnite"
+        }
+      ]
+    },
     {
       title: "Valorant",
       subtitle:
-        "CSGO da riot, ouro e mono Neon",
+        "CSGO da riot, ouro e mono Neon.",
       image: "./assets/images/neonart.png",
       imageAlt: "Google Code-In Logo",
       footerLink : [
@@ -279,7 +295,7 @@ const gamesSection = {
     },
     {
       title: "Wild Rift",
-      subtitle: "Lol mobile, sou diamante e main jhin tb",
+      subtitle: "Lol mobile, sou diamante e main jhin tb.",
       image: "./assets/images/jhinWild.png",
       imageAlt: "PWA Logo",
       footerLink: [
@@ -309,7 +325,7 @@ const gamesSection = {
 
     {
       title: "Brawlhalla",
-      subtitle: "Melhor smashbros",
+      subtitle: "Melhor smashbros.",
       image: "./assets/images/brawlhalla.png",
       imageAlt: "PWA Logo",
       footerLink: [
