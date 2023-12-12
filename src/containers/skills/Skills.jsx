@@ -9,16 +9,10 @@ import classNames from "classnames";
 
 const skillListing = [
   {
-    title: '⚡ Jogos eletrônicos online competitivos',
+    title: '⚡ Jogos eletrônicos ',
     style: 'background-games',
     stylemobile:'skill-background-mobile-games',
     desc: 'Curto jogos competitivos como CS2, Valorant, LoL, COD e Battlebit Remastered. Também curto Terraria, Hades e uns jogos de ritmo. ',
-  },
-  {
-    title: '⚡ Busco e construo projetos open source',
-    style: 'background-projects',
-    stylemobile:'skill-background-mobile-opensource',
-    desc: 'Curto desenvolvimento web e jogos, aprendendo atualmente React e C#.'
   },
   {
     title: '⚡ Estudo química e progamação web',
@@ -27,13 +21,19 @@ const skillListing = [
     desc: 'Faço curso de química na ETECIA(etec irmã agostina) e aprendendo progamação.'
   },
   {
-    title: '⚡ Pratico tênis de mesa',
+    title: '⚡ Projetos Open-Source',
+    style: 'background-projects',
+    stylemobile:'skill-background-mobile-opensource',
+    desc: 'Curto desenvolvimento web e jogos, aprendendo atualmente React e C#.'
+  },
+  {
+    title: '⚡ Tênis de mesa',
     style: 'background-tabletennis',
     stylemobile:'skill-background-mobile-tabletennis',
     desc: 'Gosto de praticar tenis de mesa e assistir campeonatos, tambem sou entusiasta em equipamentos.'
   },
   {
-    title: '⚡ Gosto e faço artes e design digital',
+    title: '⚡ Artes e design digital',
     style: 'background-art',
     stylemobile:'skill-background-mobile-art',
     desc: 'Curto desenhar e fazer design digital, desde 2015.'
