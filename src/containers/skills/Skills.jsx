@@ -30,7 +30,7 @@ const skillListing = [
     title: '⚡ Tênis de mesa',
     style: 'background-tabletennis',
     stylemobile:'skill-background-mobile-tabletennis',
-    desc: 'Gosto de praticar tenis de mesa e assistir campeonatos, tambem sou entusiasta em equipamentos.'
+    desc: 'Gosto de praticar tênis de mesa e assistir campeonatos, tambem sou entusiasta em equipamentos.'
   },
   {
     title: '⚡ Artes e design digital',
