@@ -6,61 +6,202 @@
   overflow: hidden;
   margin-bottom: 15rem !important;
 }
+
 .skills-text-div {
   margin-left: 50px;
 }
 
-.skills-main-div > * {
+.skills-main-div>* {
   flex: 1;
   margin-bottom: 30px;
-  
+
 }
 
-.skills-image-div > img {
-}
+// .skills-image-div > img {
+// }
 
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
 }
+
 .subTitle {
   color: $subTitle;
+}
+
+.skill-title-clickable {
+  font-size: 1.35rem;
+  background-color: rgba(240, 248, 255, 0.036);
+  border-radius: 1rem;
+  cursor: pointer;
+  margin-bottom: .4rem;
+}
+
+.background-games {
+  background-image: (url("/assets/images/backgroundskillimages/gamesbackground.png"));
+  opacity: 0.1;
+  zoom: 1.8;
+  border-radius: 3rem;
+  background-size: 20rem;
+  animation: mymove 15s infinite;
+}
+
+.background-projects {
+  background-image: (url("/assets/images/backgroundskillimages/opensourcebackground.png"));
+  opacity: 0.1;
+  zoom: 1.4;
+  border-radius: 3rem;
+  background-size: 16rem;
+  animation: mymove 20s infinite;
+}
+
+.background-chemistry {
+  background-image: (url("/assets/images/backgroundskillimages/chemistrybackground.png"));
+  opacity: 0.15;
+  zoom: 1.4;
+  border-radius: 3rem;
+  background-size: 15rem;
+  animation: mymove 20s infinite;
+}
+
+.background-tabletennis {
+  background-image: (url("/assets/images/backgroundskillimages/tabletennisbackground.png"));
+  opacity: .5;
+  zoom: 1.4;
+  border-radius: 3rem;
+  background-size: 15rem;
+  animation: mymove 20s infinite;
+}
+
+.background-art {
+  background-image: (url("/assets/images/backgroundskillimages/artbackground.png"));
+  opacity: .1;
+  zoom: 1.4;
+  border-radius: 3rem;
+  background-size: 15rem;
+  animation: mymove 20s infinite;
+}
+
+.background-balisong {
+  background-image: (url("/assets/images/backgroundskillimages/balisongbackground.png"));
+  opacity: .1;
+  zoom: 1.3;
+  border-radius: 3rem;
+  background-size: 20rem;
+  animation: mymove 15s infinite;
+}
+
+@keyframes mymove {
+  50% {
+    background-position: center;
+  }
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
     font-size: 40px;
+
   }
 }
+
 @media (max-width: 768px) {
+  .skills-text-div {
+    position: relative;
+  }
+  .skill-title-clickable {
+    font-size: 1.3rem;
+    background-color: rgba(240, 248, 255, 0.036);
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: .4rem;
+  }
+
+  .skills-text-div:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    width: 34rem;
+    height: 50rem;
+    opacity: 0.05;
+   
+    background-repeat: repeat;
+    background-position: 50% 0;
+    background-size: 100%;
+    animation: movetopleft 15s infinite;
+  }
+  .skill-background-mobile-games:before{
+    background-image: (url("/assets/images/backgroundskillimages/gamesbackground.png"));
+  }
+  .skill-background-mobile-opensource:before{
+    background-image: (url("/assets/images/backgroundskillimages/opensourcebackground.png"));
+  }
+  .skill-background-mobile-chemistry:before{
+    background-image: (url("/assets/images/backgroundskillimages/chemistrybackground.png"));
+  }
+  .skill-background-mobile-tabletennis:before{
+    background-image: (url("/assets/images/backgroundskillimages/tabletennisbackground.png"));
+  }
+  .skill-background-mobile-art:before{
+    background-image: (url("/assets/images/backgroundskillimages/artbackground.png"));
+  }
+  .skill-background-mobile-balisong:before{
+    background-image: (url("/assets/images/backgroundskillimages/balisongbackground.png"));
+  }
+
+  @keyframes movetopleft {
+    0% {
+      top: 0rem;
+      left: -10rem;
+    }
+
+    50% {
+      top: -10rem;
+      left: 0rem;
+    }
+
+    100% {
+      top: 0rem;
+      left: -10rem;
+    }
+  }
+
+
   .skills-main-div {
     margin-bottom: -5rem;
   }
+
   .skills-heading {
     font-size: 30px;
     text-align: center;
   }
+
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
   }
+
   .skills-main-div {
     flex-direction: column;
   }
+
   .skills-text-div {
     margin-left: 0px;
     margin: 20px;
   }
+
   .skills-text {
     font-size: 16px;
   }
+
   .skills-text-subtitle {
     font-size: 16px;
     text-align: center;
   }
-  .skills-image-div {
-    /* display: none; */
-    order: 2;
-  }
+
+  // .skills-image-div {
+  //   /* display: none; */
+  //   order: 2;
+  // }
 }

@@ -48,16 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "",
   subTitle: "Coisas legais:",
-  skills: [
-    emoji("⚡ Jogo jogos eletrônicos online competitivos "),
-    emoji("⚡ Busco e construo projetos open source "),
-    emoji("⚡ Estudo química e progamação web "),
-    emoji("⚡ Pratico tênis de mesa"),
-    emoji("⚡ Gosto e faço de arte e design digital"),
-    emoji("⚡ Balisong flipping"),
-  ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -211,7 +202,7 @@ const bigProjects = {
         },
         {
           name: "Site",
-          url: "https://react-harry-app.vercel.app",
+          url: "https://react-harry-app.vercel.app/personagens",
         }
       ]
     },
@@ -318,7 +309,7 @@ const gamesSection = {
 
     {
       title: "Brawlhalla",
-      subtitle: "Jogo muito bom, basicamente um smashbros",
+      subtitle: "Melhor smashbros",
       image: "./assets/images/brawlhalla.png",
       imageAlt: "PWA Logo",
       footerLink: [
