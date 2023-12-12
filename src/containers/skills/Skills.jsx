@@ -71,11 +71,9 @@ export default function Skills() {
                 // Same substring at the start will only be typed once, initially
                 'O que eu gosto?',
                 3000,
-                'O que eu sei fazer?',
+                'O que eu sei?',
                 3000,
-                'O que gosto de fazer?',
-                3000,
-                'O que eu quero fazer?',
+                'O que eu quero?',
                 3000,
               ]}
               speed={50}

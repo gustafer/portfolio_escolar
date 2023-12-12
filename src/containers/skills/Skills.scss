@@ -124,8 +124,7 @@
     pointer-events: none;
     width: 34rem;
     height: 50rem;
-    opacity: 0.05;
-   
+    opacity: 0.03;
     background-repeat: repeat;
     background-position: 50% 0;
     background-size: 100%;
@@ -142,6 +141,7 @@
   }
   .skill-background-mobile-tabletennis:before{
     background-image: (url("/assets/images/backgroundskillimages/tabletennisbackground.png"));
+    opacity: 0.1;
   }
   .skill-background-mobile-art:before{
     background-image: (url("/assets/images/backgroundskillimages/artbackground.png"));
