@@ -25,7 +25,7 @@ const greeting = {
   username: "ustav",
   title: "Olá, eu sou o ustav",
   subTitle: (
-    " Tenho 15 anos e sou desenvolvedor, químico e designer."
+    " Tenho 16 anos e sou desenvolvedor, químico e designer."
   ),
   resumeLink:
     "", // Set to empty to hide the button
