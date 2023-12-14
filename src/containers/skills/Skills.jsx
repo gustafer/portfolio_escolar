@@ -92,7 +92,7 @@ export default function Skills() {
           </p>
 
           <SoftwareSkill />
-          {skillListing.map((divListing, idx) => <> <div className="skill-title-clickable" key={idx} onClick={() => setStyle(divListing.style)}>
+          {skillListing.map((divListing, idx) => <> <div className={classNames("skill-title-clickable", divListing.desc === desc ? "skill-title-selected": "")} key={idx} onClick={() => setStyle(divListing.style)}>
             {divListing.title}</div>
             {divListing.desc === desc ? <TypeAnimation className="title-desc-clickable"
               sequence={[
